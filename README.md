@@ -39,6 +39,8 @@ LHM полезен, если вы:
 
 [`LHM и решение парадоксов геймдизайна`](./articles/lhm-and-game-design-paradoxes.md)
 
+[`LHM и PENS (SDT): в чем разница`](./articles/lhm-and-pens-sdt.md)
+
 ## English translation (WIP)
 
 An English translation is planned. Progress may appear gradually (section by section / article by article), while the main source of truth remains `LHM.md` for now.
