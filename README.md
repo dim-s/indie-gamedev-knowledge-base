@@ -8,7 +8,7 @@
 
 ## Обо мне
 
-Дмитрий Зайцев. Инди-разработчик, геймдизайнер.
+[Дмитрий Зайцев](https://t.me/dima_zaitsev_gamedev/). Инди-разработчик, геймдизайнер.
 *   Один из создателей [Galaxy Burger](https://store.steampowered.com/app/2749770/Galaxy_Burger/) (2100+ отзывов, 97% положительных отзывов, топ продаж) и [Galaxy Pass Station](https://store.steampowered.com/app/1571990/Galaxy_Pass_Station/)
 *   Автор [Большого гайда по Steam](https://steam-izdat.notion.site) (база знаний для разработчиков) и активный участник сообщества [**СТИМиздат**](https://t.me/+qWcZc4g1arRhMGY6).
 *   Пишу про геймдев без прикрас.
