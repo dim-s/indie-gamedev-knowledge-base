@@ -76,9 +76,10 @@ OGD полезен, если вы:
 
 ## Статьи (короткие входы)
 
-Дополнительные материалы, раскрывающие отдельные аспекты (находятся в разделе Guides):
+Дополнительные материалы, раскрывающие отдельные аспекты (находятся в разделе Guides и в `OGD/articles/`):
 
 - [`Кейс Galaxy Burger: Ловушка памяти и когнитивная нагрузка`](../Guides/GameDesign/case-study-galaxy-burger-memory-trap.md)
+- [`Почему OGD смотрит на реальность (и зачем это геймдизайнеру)`](./articles/ogd-kontekst-i-realnost.md)
 - [`Концепт и core loop в парадигме OGD`](../Guides/GameDesign/core-loop-and-concept.md) — как проектировать цикл.
 - [`OGD и решение парадоксов геймдизайна`](../Guides/GameDesign/ogd-and-game-design-paradoxes.md) — почему работают "скучные" игры.
 - [`OGD и PENS (SDT): в чем разница`](../Guides/GameDesign/ogd-and-pens-sdt.md) — сравнение с классической теорией мотивации.
