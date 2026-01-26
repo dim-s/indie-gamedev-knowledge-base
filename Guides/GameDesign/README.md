@@ -15,6 +15,7 @@
 - [Safe Space: Архитектура Уюта](safe-space-mechanic.md) — почему нам уютно в Dark Souls.
 - [Cozy vs Casual: Механика или Ощущение?](cozy-vs-casual-mechanics.md) — разбор разницы между просто "простой" игрой и "уютной" игрой.
 - [OGD и решение парадоксов геймдизайна](ogd-and-game-design-paradoxes.md) — почему работают "скучные" игры.
+- [Радиосвязь и Эффект Бинокля](narrative-radio-system.md) — нарратив без катсцен: как сэкономить бюджет и не убить поток (кейс Galaxy Pass Station).
 
 ### Кейсы
 - [Кейс Galaxy Burger: Ловушка памяти](case-study-galaxy-burger-memory-trap.md) — постмортем механики рецептов.
