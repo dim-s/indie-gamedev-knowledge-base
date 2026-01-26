@@ -43,11 +43,6 @@ graph TD
 > [!WARNING]
 > Это **бета-версия**. Формулировки, структура и отдельные части будут уточняться по мере тестов на проектах и обратной связи.
 
-**English**: 
-OGD is an engineering-oriented framework for game designers: it treats games as tools for naturally regulating a player's state and helps you reason about audience fit, promise, and core loop coherence.
-
-If you're new here, start with [`OGD.md`](./OGD.md). English translation is work-in-progress.
-
 ## Для кого эта методология
 
 OGD полезен, если вы:
@@ -92,10 +87,6 @@ OGD полезен, если вы:
 - [`Игра как Лекарство: Философия Игры-Убежища`](../Guides/General/game-as-therapy-and-shelter.md) — почему мы играем в симуляторы работы после работы (анализ через призму OGD).
 - [`Когнитивная нагрузка и удержание`](../Guides/GameDesign/cognitive-load-retention.md) — почему игроки бросают игру через 15 минут (теория CLT).
 - [`Дофаминовый vs Сератониновый жир`](../Guides/GameDesign/serotonin-vs-dopamine-fat.md) — управление когнитивной нагрузкой и физиология отдыха.
-
-## English translation (WIP)
-
-An English translation is planned. Progress may appear gradually (section by section / article by article), while the main source of truth remains `OGD.md` for now.
 
 ## Как ссылаться (атрибуция)
 
