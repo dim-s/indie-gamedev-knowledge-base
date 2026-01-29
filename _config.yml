@@ -2,8 +2,11 @@
 
 remote_theme: just-the-docs/just-the-docs
 
-title: "OGD Knowledge Base"
-description: "Organic Game Design — метод геймдизайна через гомеостаз игрока"
+title: "Инди-Геймдев: База Знаний"
+description: "Гайды, шаблоны и методология (OGD) от одного из создателей Galaxy Burger, Дмитрия Зайцева."
+
+# Цветовая схема (кастомная зелёная)
+color_scheme: organic
 
 # Поиск
 search_enabled: true
