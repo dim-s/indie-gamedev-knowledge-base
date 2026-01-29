@@ -1,6 +1,11 @@
 // Подключаем шрифты (Nunito)
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
 
+// ============================================
+// Ширина контента (по умолчанию ~800px, делаем шире)
+// ============================================
+$content-width: 950px;
+
 // Шрифты
 $body-font-family: "Nunito", sans-serif;
 $heading-font-family: "Nunito", sans-serif;
