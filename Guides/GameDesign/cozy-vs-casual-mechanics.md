@@ -6,7 +6,7 @@ parent: Геймдизайн
 
 # Почему не каждая казуальная игра это Cozy (Уютная)?
 
-> Оригинал статьи в блоге: [Дмитрий Зайцев | Геймдизайн](https://t.me/dima_zaitsev_gamedev/55)
+> Оригинал статьи в блоге: [Дмитрий Зайцев — Геймдизайн](https://t.me/dima_zaitsev_gamedev/55)
 
 ![Cozy Mood](images/cozy-vs-casual-cover.png)
 

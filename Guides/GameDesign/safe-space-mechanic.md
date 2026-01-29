@@ -6,7 +6,7 @@ parent: Геймдизайн
 
 # Safe Space: Архитектура Уюта через призму OGD
 
-> Основано на заметке из канала: [Дмитрий Зайцев | GameDev](https://t.me/dima_zaitsev_gamedev/71)
+> Основано на заметке из канала: [Дмитрий Зайцев — GameDev](https://t.me/dima_zaitsev_gamedev/71)
 
 ![Safe Space Metaphor](images/cat-safe-space.png)
 
