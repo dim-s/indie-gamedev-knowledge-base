@@ -1,15 +1,15 @@
 <script>
-console.log('GitHub Alerts Script Loaded');
+console.log('GitHub Alerts Script Loaded v2');
 
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM Content Loaded - Starting Alerts processing');
   
   var alertTypes = {
-    'NOTE': { icon: '&#8505;&#65039;', cls: 'alert-note', color: '#0969da' },
-    'TIP': { icon: '&#128161;', cls: 'alert-tip', color: '#1a7f37' },
-    'IMPORTANT': { icon: '&#10071;', cls: 'alert-important', color: '#8250df' },
-    'WARNING': { icon: '&#9888;&#65039;', cls: 'alert-warning', color: '#9a6700' },
-    'CAUTION': { icon: '&#128721;', cls: 'alert-caution', color: '#cf222e' }
+    'NOTE': { icon: '\u2139\uFE0F', cls: 'alert-note', color: '#0969da' },
+    'TIP': { icon: '\uD83D\uDCA1', cls: 'alert-tip', color: '#1a7f37' },
+    'IMPORTANT': { icon: '\u2757', cls: 'alert-important', color: '#8250df' },
+    'WARNING': { icon: '\u26A0\uFE0F', cls: 'alert-warning', color: '#9a6700' },
+    'CAUTION': { icon: '\uD83D\uDED1', cls: 'alert-caution', color: '#cf222e' }
   };
 
   var blockquotes = document.querySelectorAll('blockquote');
@@ -18,17 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i = 0; i < blockquotes.length; i++) {
     var bq = blockquotes[i];
     var firstP = bq.querySelector('p');
-    if (!firstP) {
-        // Иногда текст может быть без p, если он короткий, или структура другая
-        console.log('Blockquote ' + i + ' has no P tag');
-        continue;
-    }
+    if (!firstP) continue;
     
     var text = firstP.innerHTML;
-    console.log('Checking blockquote: ' + text.substring(0, 20) + '...');
-
-    // Регулярка ищет [!TYPE] или \[!TYPE\] в начале строки
-    // Учитываем возможное экранирование и пробелы
+    // Regex matches [!TYPE] or \[!TYPE\]
     var match = text.match(/^\s*(\\?\[|&#91;)!((?:NOTE|TIP|IMPORTANT|WARNING|CAUTION))(\\?\]|&#93;)\s*/i);
     
     if (match) {
@@ -37,19 +30,15 @@ document.addEventListener('DOMContentLoaded', function() {
       var config = alertTypes[type];
       
       if (config) {
-        // Удаляем маркер из текста
         firstP.innerHTML = text.replace(match[0], '');
         
-        // Добавляем классы и стили
-        bq.classList.add('gfm-alert', config.cls);
+        bq.className += ' gfm-alert ' + config.cls;
         bq.style.borderLeftColor = config.color;
-        bq.style.backgroundColor = config.color + '10'; // 10 = low opacity hex
+        bq.style.backgroundColor = config.color + '10';
         
-        // Создаем заголовок
         var title = document.createElement('div');
         title.className = 'alert-title';
-        title.innerHTML = '<span style="margin-right: 8px; font-size: 1.2em;">' + config.icon + '</span>' + 
-                          '<span style="font-weight: bold; color: ' + config.color + ';">' + type.charAt(0) + type.slice(1).toLowerCase() + '</span>';
+        title.innerHTML = '<span style="margin-right: 8px; font-size: 1.2em;">' + config.icon + '</span><span style="font-weight: bold; color: ' + config.color + ';">' + type.charAt(0) + type.slice(1).toLowerCase() + '</span>';
         title.style.display = 'flex';
         title.style.alignItems = 'center';
         title.style.marginBottom = '8px';
