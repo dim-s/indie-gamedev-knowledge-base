@@ -1,13 +1,17 @@
-// Organic — зелёная цветовая схема для OGD Knowledge Base
+// Organic — синяя цветовая схема для OGD Knowledge Base
 
-$link-color: #2e8b57;              // Sea Green
-$btn-primary-color: #2e8b57;
-$sidebar-color: #f8faf9;
-$search-result-preview-color: #2e8b57;
-$nav-child-link-color: #2e8b57;
-$feedback-color: #2e8b57;
-$code-background-color: #f4f8f5;
+$link-color: #2563eb;              // Blue 600
+$btn-primary-color: #2563eb;
+$sidebar-color: #f8fafc;           // Очень светлый фон сайдбара
+$search-result-preview-color: #1d4ed8;
+$nav-child-link-color: #1e40af;    // Синий потемнее для читаемости
+$feedback-color: #2563eb;
+$code-background-color: #f1f5f9;
 $search-background-color: #ffffff;
-$table-background-color: #fdfefd;
-$search-result-highlight-color: #d4edda;
-$border-color: #d1e7d4;
+$table-background-color: #fafbfc;
+$search-result-highlight-color: #dbeafe;
+$border-color: #e2e8f0;
+
+// Активный элемент навигации
+$nav-active-link-color: #1e3a5f;   // Тёмно-синий текст для контраста
+$nav-active-bg-color: #eff6ff;     // Очень светло-голубой фон
