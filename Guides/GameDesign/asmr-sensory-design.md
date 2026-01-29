@@ -1,3 +1,9 @@
+---
+layout: default
+title: "ASMR: Сенсорный дизайн как механика"
+parent: Геймдизайн
+---
+
 # ASMR в играх: Сенсорный дизайн как механика
 
 > Основано на заметке из блога: [Dima Zaitsev GameDev](https://t.me/dima_zaitsev_gamedev/25)

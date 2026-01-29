@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Игра как Лекарство"
+parent: Общее
+---
+
 # Игра как Лекарство: Философия Игры-Убежища
 
 > Оригинал статьи в блоге: [Telegram: @dima_zaitsev_gamedev](https://t.me/dima_zaitsev_gamedev/40)

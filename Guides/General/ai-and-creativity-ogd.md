@@ -1,3 +1,9 @@
+---
+layout: default
+title: "ИИ, Творчество и Поиск Замысла"
+parent: Общее
+---
+
 # ИИ, Творчество и Поиск Замысла: Почему мы ненавидим пометку «Created by AI»
 
 > Оригинал статьи в блоге: [Telegram: dima_zaitsev_gamedev](https://t.me/dima_zaitsev_gamedev/63)

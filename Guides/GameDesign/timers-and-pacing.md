@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Таймеры, которые всех бесят"
+parent: Геймдизайн
+---
+
 # Ложечка геймдизайна: Таймеры, которые всех бесят
 
 > Оригинал статьи в блоге: [Dima Zaitsev GameDev](https://t.me/dima_zaitsev_gamedev/9)

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Женская аудитория в Steam"
+parent: Маркетинг
+---
+
 # Женская аудитория в Steam: Мифы и Реальность
 
 > Оригинал статьи в телеграм-канале: [Dima Zaitsev GameDev](https://t.me/dima_zaitsev_gamedev/39)

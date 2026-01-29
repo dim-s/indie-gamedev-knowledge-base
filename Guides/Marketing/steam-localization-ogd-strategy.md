@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Локализация как Рычаг"
+parent: Маркетинг
+---
+
 # Локализация как Рычаг: Как получить тысячи вишлистов без бюджета
 
 > Оригинал статьи в блоге: [Telegram: dima_zaitsev_gamedev](https://t.me/dima_zaitsev_gamedev/70)

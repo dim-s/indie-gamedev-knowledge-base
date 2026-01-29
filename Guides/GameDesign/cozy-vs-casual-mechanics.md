@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Cozy vs Casual: в чём разница"
+parent: Геймдизайн
+---
+
 # Почему не каждая казуальная игра это Cozy (Уютная)?
 
 > Оригинал статьи в блоге: [Дмитрий Зайцев | Геймдизайн](https://t.me/dima_zaitsev_gamedev/55)

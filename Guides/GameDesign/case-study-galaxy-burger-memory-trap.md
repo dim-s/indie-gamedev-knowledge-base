@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Кейс Galaxy Burger: Ловушка памяти"
+parent: Геймдизайн
+---
+
 # Кейс Galaxy Burger: Ловушка памяти и когнитивная нагрузка
 
 > Основано на заметке из блога: [Dmitry Zaitsev | GameDev](https://t.me/dima_zaitsev_gamedev/46)

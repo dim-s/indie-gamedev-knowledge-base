@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Safe Space: Архитектура Уюта"
+parent: Геймдизайн
+---
+
 # Safe Space: Архитектура Уюта через призму OGD
 
 > Основано на заметке из канала: [Дмитрий Зайцев | GameDev](https://t.me/dima_zaitsev_gamedev/71)

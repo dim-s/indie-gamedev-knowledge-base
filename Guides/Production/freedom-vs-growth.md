@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Свобода важнее роста"
+parent: Производство
+---
+
 # Свобода важнее роста: Почему я проектирую жизнь, а не бизнес
 
 > Оригинал статьи в блоге: [Telegram: Dmitry Zaitsev GameDev](https://t.me/dima_zaitsev_gamedev/52)

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Отзывы в Steam для интровертов"
+parent: Производство
+---
+
 # Как работать с отзывами в Steam, если ты интроверт
 
 > Оригинал статьи в блоге: [Telegram @dima_zaitsev_gamedev](https://t.me/dima_zaitsev_gamedev/59)

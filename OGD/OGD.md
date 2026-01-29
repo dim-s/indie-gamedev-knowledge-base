@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Полное руководство OGD"
+parent: OGD (Методология)
+nav_order: 1
+---
+
 # Organic Game Design (OGD)
 <a name="ogd-top"></a>
 

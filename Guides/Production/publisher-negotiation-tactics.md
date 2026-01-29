@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Переговоры с издателем"
+parent: Производство
+---
+
 # Ловушка «Энтузиаст и Страж»: Психология переговоров с издателем
 
 > Оригинал статьи в блоге: [Dima Zaitsev GameDev](https://t.me/dima_zaitsev_gamedev/59)
