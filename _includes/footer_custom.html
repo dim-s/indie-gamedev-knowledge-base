@@ -1,3 +1,20 @@
+<!-- Site Footer -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-license">
+      <span class="footer-icon">📜</span>
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · Дмитрий Зайцев, 2026
+    </div>
+    <div class="footer-attribution">
+      При использовании материалов ссылайтесь на <a href="https://dim-s.github.io/indie-gamedev-knowledge-base/">сайт</a> или <a href="https://github.com/dim-s/indie-gamedev-knowledge-base" target="_blank" rel="noopener">репозиторий</a>
+    </div>
+    <div class="footer-contact">
+      <span class="footer-icon">✉️</span>
+      <a href="mailto:d.zayceff@gmail.com">d.zayceff@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
 <!-- Back to Top Button -->
 <button class="back-to-top" aria-label="Наверх" title="Наверх">↑</button>
 
@@ -69,50 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
     readingTimeEl.innerHTML = '<span class="reading-time-icon">⏱</span> ~' + readingTime + ' ' + pluralMinutes(readingTime) + ' чтения';
     
     firstH1.parentNode.insertBefore(readingTimeEl, firstH1.nextSibling);
-  }
-  
-  /* Table of Contents (Оглавление) */
-  if (mainContent) {
-    var headings = mainContent.querySelectorAll('h2[id], h3[id], h4[id]');
-    
-    if (headings.length >= 3) {
-      var tocContainer = document.createElement('div');
-      tocContainer.className = 'page-toc';
-      
-      var tocTitle = document.createElement('div');
-      tocTitle.className = 'toc-title';
-      tocTitle.innerHTML = '<span>📑</span> Содержание';
-      
-      var tocList = document.createElement('ul');
-      tocList.className = 'toc-list';
-      
-      for (var j = 0; j < headings.length; j++) {
-        var heading = headings[j];
-        var li = document.createElement('li');
-        var level = heading.tagName.toLowerCase();
-        li.className = 'toc-' + level;
-        
-        var link = document.createElement('a');
-        link.href = '#' + heading.id;
-        link.textContent = heading.textContent.replace(/^#\s*/, '');
-        
-        li.appendChild(link);
-        tocList.appendChild(li);
-      }
-      
-      tocContainer.appendChild(tocTitle);
-      tocContainer.appendChild(tocList);
-      
-      var readingTimeBlock = mainContent.querySelector('.reading-time');
-      var insertAfter = readingTimeBlock || firstH1;
-      if (insertAfter) {
-        insertAfter.parentNode.insertBefore(tocContainer, insertAfter.nextSibling);
-      }
-      
-      tocTitle.addEventListener('click', function() {
-        tocContainer.classList.toggle('collapsed');
-      });
-    }
   }
   
   /* Back to Top Button */

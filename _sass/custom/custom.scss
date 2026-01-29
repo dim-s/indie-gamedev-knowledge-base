@@ -84,78 +84,46 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
 }
 
 // ============================================
-// In-Page Table of Contents (Оглавление)
+// Site Footer (Футер сайта)
 // ============================================
-.page-toc {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 2rem;
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e2e8f0;
   
-  .toc-title {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  
+  .footer-icon {
+    margin-right: 0.3rem;
+  }
+  
+  .footer-license,
+  .footer-attribution,
+  .footer-contact {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #334155;
-    margin-bottom: 0.75rem;
-    cursor: pointer;
-    user-select: none;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
     
-    &::after {
-      content: "▼";
-      font-size: 0.7em;
-      margin-left: auto;
-      transition: transform 0.2s ease;
+    &:hover {
+      text-decoration: underline;
     }
   }
   
-  &.collapsed .toc-title::after {
-    transform: rotate(-90deg);
-  }
-  
-  &.collapsed .toc-list {
-    display: none;
-  }
-  
-  .toc-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.875rem;
-    
-    li {
-      margin: 0.35rem 0;
-      
-      a {
-        color: #475569;
-        text-decoration: none;
-        display: block;
-        padding: 0.2rem 0;
-        border-left: 2px solid transparent;
-        padding-left: 0.75rem;
-        transition: all 0.15s ease;
-        
-        &:hover {
-          color: #2563eb;
-          border-left-color: #2563eb;
-          background: rgba(37, 99, 235, 0.05);
-        }
-      }
-      
-      // Вложенные уровни (h3, h4)
-      &.toc-h3 a {
-        padding-left: 1.5rem;
-        font-size: 0.825rem;
-      }
-      
-      &.toc-h4 a {
-        padding-left: 2.25rem;
-        font-size: 0.8rem;
-        color: #64748b;
-      }
+  @media (max-width: 768px) {
+    .footer-content {
+      font-size: 0.8rem;
     }
   }
 }
