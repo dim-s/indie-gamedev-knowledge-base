@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
     background-color: #ffffff !important; // Белый фон
   }
   
-  // Заголовки и текст внутри активного элемента
+  // Заголовки и текст внутри активного элемента - КРИТИЧНО ВАЖНО усилить селекторы
   .search-result-title, 
   .search-result-doc-title,
   .search-result-section,
@@ -82,8 +82,19 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
     color: #ffffff !important;
   }
   
-  // Иконки делаем белыми
+  // Для вложенных элементов, которые могут иметь свои цвета
+  * {
+    color: #ffffff !important;
+  }
+  
+  // Иконки делаем белыми (fill/stroke)
   .search-result-icon {
     color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+  
+  // Возвращаем синий цвет для highlight внутри * (так как * перебьет его)
+  .search-result-highlight {
+    color: #2563eb !important;
   }
 }
