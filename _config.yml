@@ -11,6 +11,10 @@ color_scheme: organic
 # Поиск
 search_enabled: true
 
+# Mermaid диаграммы
+mermaid:
+  version: "10"
+
 # Плагины (поддерживаются GitHub Pages)
 plugins:
   - jekyll-remote-theme

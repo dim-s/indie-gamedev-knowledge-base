@@ -4,6 +4,7 @@ title: OGD (Методология)
 nav_order: 2
 has_children: true
 permalink: /ogd/
+mermaid: true
 ---
 
 # Organic Game Design (OGD) v0.9-beta

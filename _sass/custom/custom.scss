@@ -1,13 +1,16 @@
-// Кастомные цвета для OGD Knowledge Base
-// Зелёная палитра — спокойная, "органическая"
+// Кастомные стили для навигации
+// Убираем градиент, делаем нормальный контраст
 
-// Основной акцентный цвет (ссылки, активные элементы)
-$link-color: #2e8b57;           // Sea Green — приятный глазу
-$link-color-hover: #236b43;     // Темнее при наведении
+.nav-list-item {
+  .nav-list-link.active {
+    // Убираем градиент, простой светлый фон
+    background-image: none !important;
+    background-color: #eff6ff !important;
+    color: #1e40af !important;  // Тёмно-синий текст
+  }
+}
 
-// Боковая навигация
-$nav-child-link-color: #2e8b57;
-$sidebar-color: #f8faf9;        // Очень светлый зелёный фон
-
-// Активный элемент в навигации
-$feedback-color: #2e8b57;
+// Боковая полоса у активного элемента
+.nav-list-item > .nav-list-link.active {
+  border-left-color: #2563eb;
+}
