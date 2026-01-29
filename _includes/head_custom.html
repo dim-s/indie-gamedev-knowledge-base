@@ -1,0 +1,42 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // GitHub-style alerts support
+  const alertTypes = {
+    'NOTE': { icon: 'ℹ️', class: 'alert-note', color: '#0969da' },
+    'TIP': { icon: '💡', class: 'alert-tip', color: '#1a7f37' },
+    'IMPORTANT': { icon: '❗', class: 'alert-important', color: '#8250df' },
+    'WARNING': { icon: '⚠️', class: 'alert-warning', color: '#9a6700' },
+    'CAUTION': { icon: '🛑', class: 'alert-caution', color: '#cf222e' }
+  };
+
+  document.querySelectorAll('blockquote').forEach(function(bq) {
+    const firstP = bq.querySelector('p');
+    if (!firstP) return;
+    
+    const text = firstP.innerHTML;
+    const match = text.match(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*/);
+    
+    if (match) {
+      const type = match[1];
+      const config = alertTypes[type];
+      
+      // Remove [!TYPE] from text
+      firstP.innerHTML = text.replace(match[0], '');
+      
+      // Style the blockquote
+      bq.classList.add('gfm-alert', config.class);
+      bq.style.borderLeftColor = config.color;
+      bq.style.backgroundColor = config.color + '10';
+      
+      // Add title
+      const title = document.createElement('p');
+      title.className = 'alert-title';
+      title.innerHTML = config.icon + ' ' + type.charAt(0) + type.slice(1).toLowerCase();
+      title.style.color = config.color;
+      title.style.fontWeight = '600';
+      title.style.marginBottom = '0.25rem';
+      bq.insertBefore(title, firstP);
+    }
+  });
+});
+</script>

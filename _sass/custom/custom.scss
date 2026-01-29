@@ -14,3 +14,23 @@
 .nav-list-item > .nav-list-link.active {
   border-left-color: #2563eb;
 }
+
+// GitHub-style alerts
+.gfm-alert {
+  padding: 1rem;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-radius: 6px;
+  margin: 1rem 0;
+  
+  .alert-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
