@@ -343,3 +343,32 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
     color: #2563eb !important;
   }
 }
+
+// ============================================
+// Широкие таблицы — горизонтальный скролл
+// ============================================
+.main-content {
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    thead, tbody, tr {
+      display: table;
+      width: 100%;
+      table-layout: auto;
+    }
+  }
+}
+
+// ============================================
+// Длинные таблицы — sticky header
+// ============================================
+.main-content table thead th {
+  position: sticky;
+  top: 0;
+  background: #f8fafc;
+  z-index: 1;
+  box-shadow: 0 1px 0 #e2e8f0;
+}
