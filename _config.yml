@@ -10,6 +10,9 @@ color_scheme: organic
 
 # Поиск
 search_enabled: true
+search:
+  # Разрешаем кириллицу (по умолчанию lunr может ее игнорировать)
+  tokenizer_separator: /[\s\-/]+/
 
 # Mermaid диаграммы
 mermaid:
