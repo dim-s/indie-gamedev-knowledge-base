@@ -1,3 +1,11 @@
+---
+layout: default
+title: OGD (Методология)
+nav_order: 2
+has_children: true
+permalink: /ogd/
+---
+
 # Organic Game Design (OGD) v0.9-beta
 > Метод Органического Геймдизайна
 

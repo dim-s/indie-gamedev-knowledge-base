@@ -1,0 +1,38 @@
+# GitHub Pages configuration for OGD Knowledge Base
+
+# Тема just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+# Основные настройки сайта
+title: "OGD Knowledge Base"
+description: "Organic Game Design — метод геймдизайна через гомеостаз игрока"
+url: "https://xartd0.github.io"  # замени xartd0 на свой username
+baseurl: "/my-guides"            # имя репозитория
+
+# Навигация
+nav_enabled: true
+nav_sort: case_insensitive
+
+# Поиск
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Цветовая схема: light, dark, или auto (следует системе)
+color_scheme: auto
+
+# Подвал
+footer_content: "OGD by Dmitry Zaitsev"
+
+# Плагины (поддерживаются GitHub Pages)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Исключить из сборки
+exclude:
+  - LICENSE
+  - .DS_Store
