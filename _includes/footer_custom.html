@@ -1,9 +1,10 @@
-<script>
-console.log('GitHub Alerts Script Loaded v4');
+<!-- Back to Top Button -->
+<button class="back-to-top" aria-label="Наверх" title="Наверх">↑</button>
 
+<script>
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM Content Loaded - Starting Alerts processing');
   
+  /* GitHub Alerts */
   var alertTypes = {
     'NOTE': { icon: '&#8505;&#65039;', cls: 'alert-note', color: '#0969da', label: 'На заметку' },
     'TIP': { icon: '&#128161;', cls: 'alert-tip', color: '#1a7f37', label: 'Подсказка' },
@@ -13,25 +14,20 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   var blockquotes = document.querySelectorAll('blockquote');
-  console.log('Found ' + blockquotes.length + ' blockquotes');
-
   for (var i = 0; i < blockquotes.length; i++) {
     var bq = blockquotes[i];
     var firstP = bq.querySelector('p');
     if (!firstP) continue;
     
     var text = firstP.innerHTML;
-    /* Regex matches [!TYPE] or \[!TYPE\] */
     var match = text.match(/^\s*(\\?\[|&#91;)!((?:NOTE|TIP|IMPORTANT|WARNING|CAUTION))(\\?\]|&#93;)\s*/i);
     
     if (match) {
       var type = match[2].toUpperCase();
-      console.log('Match found! Type: ' + type);
       var config = alertTypes[type];
       
       if (config) {
         firstP.innerHTML = text.replace(match[0], '');
-        
         bq.className += ' gfm-alert ' + config.cls;
         bq.style.borderLeftColor = config.color;
         bq.style.backgroundColor = config.color + '10';
@@ -49,5 +45,98 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   }
+  
+  /* Reading Time (Время чтения) */
+  var mainContent = document.querySelector('.main-content');
+  var firstH1 = mainContent ? mainContent.querySelector('h1') : null;
+  
+  if (mainContent && firstH1) {
+    var textContent = mainContent.textContent || mainContent.innerText;
+    var wordCount = textContent.trim().split(/\s+/).length;
+    var readingTime = Math.ceil(wordCount / 200); /* ~200 слов/мин для русского */
+    
+    function pluralMinutes(n) {
+      var abs = Math.abs(n) % 100;
+      var n1 = abs % 10;
+      if (abs > 10 && abs < 20) return 'минут';
+      if (n1 > 1 && n1 < 5) return 'минуты';
+      if (n1 === 1) return 'минута';
+      return 'минут';
+    }
+    
+    var readingTimeEl = document.createElement('div');
+    readingTimeEl.className = 'reading-time';
+    readingTimeEl.innerHTML = '<span class="reading-time-icon">⏱</span> ~' + readingTime + ' ' + pluralMinutes(readingTime) + ' чтения';
+    
+    firstH1.parentNode.insertBefore(readingTimeEl, firstH1.nextSibling);
+  }
+  
+  /* Table of Contents (Оглавление) */
+  if (mainContent) {
+    var headings = mainContent.querySelectorAll('h2[id], h3[id], h4[id]');
+    
+    if (headings.length >= 3) {
+      var tocContainer = document.createElement('div');
+      tocContainer.className = 'page-toc';
+      
+      var tocTitle = document.createElement('div');
+      tocTitle.className = 'toc-title';
+      tocTitle.innerHTML = '<span>📑</span> Содержание';
+      
+      var tocList = document.createElement('ul');
+      tocList.className = 'toc-list';
+      
+      for (var j = 0; j < headings.length; j++) {
+        var heading = headings[j];
+        var li = document.createElement('li');
+        var level = heading.tagName.toLowerCase();
+        li.className = 'toc-' + level;
+        
+        var link = document.createElement('a');
+        link.href = '#' + heading.id;
+        link.textContent = heading.textContent.replace(/^#\s*/, '');
+        
+        li.appendChild(link);
+        tocList.appendChild(li);
+      }
+      
+      tocContainer.appendChild(tocTitle);
+      tocContainer.appendChild(tocList);
+      
+      var readingTimeBlock = mainContent.querySelector('.reading-time');
+      var insertAfter = readingTimeBlock || firstH1;
+      if (insertAfter) {
+        insertAfter.parentNode.insertBefore(tocContainer, insertAfter.nextSibling);
+      }
+      
+      tocTitle.addEventListener('click', function() {
+        tocContainer.classList.toggle('collapsed');
+      });
+    }
+  }
+  
+  /* Back to Top Button */
+  var backToTopBtn = document.querySelector('.back-to-top');
+  
+  if (backToTopBtn) {
+    var scrollThreshold = 400;
+    
+    function toggleBackToTop() {
+      if (window.scrollY > scrollThreshold) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    }
+    
+    window.addEventListener('scroll', toggleBackToTop, { passive: true });
+    
+    backToTopBtn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    toggleBackToTop();
+  }
+  
 });
 </script>

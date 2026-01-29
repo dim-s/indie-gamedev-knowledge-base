@@ -18,6 +18,12 @@ search:
 mermaid:
   version: "10"
 
+# Якоря для заголовков (для навигации по TOC)
+heading_anchors: true
+
+# Кнопка копирования кода
+enable_copy_code_button: true
+
 # Плагины (поддерживаются GitHub Pages)
 plugins:
   - jekyll-remote-theme

@@ -16,6 +16,150 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
   font-family: $heading-font-family;
 }
 
+// ============================================
+// Reading Time (Время чтения)
+// ============================================
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #f8fafc;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  
+  .reading-time-icon {
+    font-size: 1em;
+  }
+}
+
+// ============================================
+// Back to Top Button (Кнопка наверх)
+// ============================================
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  
+  &:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  }
+  
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  // На мобильных чуть меньше
+  @media (max-width: 768px) {
+    width: 42px;
+    height: 42px;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.25rem;
+  }
+}
+
+// ============================================
+// In-Page Table of Contents (Оглавление)
+// ============================================
+.page-toc {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  
+  .toc-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #334155;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    
+    &::after {
+      content: "▼";
+      font-size: 0.7em;
+      margin-left: auto;
+      transition: transform 0.2s ease;
+    }
+  }
+  
+  &.collapsed .toc-title::after {
+    transform: rotate(-90deg);
+  }
+  
+  &.collapsed .toc-list {
+    display: none;
+  }
+  
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.875rem;
+    
+    li {
+      margin: 0.35rem 0;
+      
+      a {
+        color: #475569;
+        text-decoration: none;
+        display: block;
+        padding: 0.2rem 0;
+        border-left: 2px solid transparent;
+        padding-left: 0.75rem;
+        transition: all 0.15s ease;
+        
+        &:hover {
+          color: #2563eb;
+          border-left-color: #2563eb;
+          background: rgba(37, 99, 235, 0.05);
+        }
+      }
+      
+      // Вложенные уровни (h3, h4)
+      &.toc-h3 a {
+        padding-left: 1.5rem;
+        font-size: 0.825rem;
+      }
+      
+      &.toc-h4 a {
+        padding-left: 2.25rem;
+        font-size: 0.8rem;
+        color: #64748b;
+      }
+    }
+  }
+}
+
 // Кастомные стили для навигации
 // Убираем градиент, делаем нормальный контраст
 
