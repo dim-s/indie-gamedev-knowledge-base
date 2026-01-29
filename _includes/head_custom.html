@@ -1,36 +1,34 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // GitHub-style alerts support
-  const alertTypes = {
-    'NOTE': { icon: 'ℹ️', class: 'alert-note', color: '#0969da' },
-    'TIP': { icon: '💡', class: 'alert-tip', color: '#1a7f37' },
-    'IMPORTANT': { icon: '❗', class: 'alert-important', color: '#8250df' },
-    'WARNING': { icon: '⚠️', class: 'alert-warning', color: '#9a6700' },
-    'CAUTION': { icon: '🛑', class: 'alert-caution', color: '#cf222e' }
+  var alertTypes = {
+    'NOTE': { icon: '&#8505;&#65039;', cls: 'alert-note', color: '#0969da' },
+    'TIP': { icon: '&#128161;', cls: 'alert-tip', color: '#1a7f37' },
+    'IMPORTANT': { icon: '&#10071;', cls: 'alert-important', color: '#8250df' },
+    'WARNING': { icon: '&#9888;&#65039;', cls: 'alert-warning', color: '#9a6700' },
+    'CAUTION': { icon: '&#128721;', cls: 'alert-caution', color: '#cf222e' }
   };
 
-  document.querySelectorAll('blockquote').forEach(function(bq) {
-    const firstP = bq.querySelector('p');
-    if (!firstP) return;
+  var blockquotes = document.querySelectorAll('blockquote');
+  for (var i = 0; i < blockquotes.length; i++) {
+    var bq = blockquotes[i];
+    var firstP = bq.querySelector('p');
+    if (!firstP) continue;
     
-    const text = firstP.innerHTML;
-    // Match both [!NOTE] and \[!NOTE\] (escaped brackets)
-    const match = text.match(/^\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\\?\]\s*/);
+    var text = firstP.innerHTML;
+    var match = text.match(/^\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\\?\]\s*/);
     
     if (match) {
-      const type = match[1];
-      const config = alertTypes[type];
+      var type = match[1];
+      var config = alertTypes[type];
       
-      // Remove [!TYPE] or \[!TYPE\] from text
       firstP.innerHTML = text.replace(match[0], '');
       
-      // Style the blockquote
-      bq.classList.add('gfm-alert', config.class);
+      bq.className = bq.className + ' gfm-alert ' + config.cls;
       bq.style.borderLeftColor = config.color;
       bq.style.backgroundColor = config.color + '10';
       
-      // Add title
-      const title = document.createElement('p');
+      var title = document.createElement('p');
       title.className = 'alert-title';
       title.innerHTML = config.icon + ' ' + type.charAt(0) + type.slice(1).toLowerCase();
       title.style.color = config.color;
@@ -38,6 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
       title.style.marginBottom = '0.25rem';
       bq.insertBefore(title, firstP);
     }
-  });
+  }
 });
 </script>
