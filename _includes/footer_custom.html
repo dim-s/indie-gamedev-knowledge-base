@@ -85,6 +85,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
+  /* Table Wrapper — горизонтальный скролл для широких таблиц */
+  var tables = document.querySelectorAll('.main-content table');
+  for (var t = 0; t < tables.length; t++) {
+    var table = tables[t];
+    if (!table.parentElement.classList.contains('table-wrapper')) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentNode.insertBefore(wrapper, table);
+      wrapper.appendChild(table);
+    }
+  }
+  
   /* Reading Time (Время чтения) */
   var mainContent = document.querySelector('.main-content');
   var firstH1 = mainContent ? mainContent.querySelector('h1') : null;
