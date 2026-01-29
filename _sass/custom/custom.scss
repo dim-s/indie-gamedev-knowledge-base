@@ -279,10 +279,14 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
 
 // Общие стили для футера (на всех экранах)
 .site-footer {
-  background-color: transparent; // Фон не обязателен, если он в потоке
+  background-color: #ffffff; // Фон всегда белый (непрозрачный)
   margin-top: 4rem;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   border-top: 1px solid #e2e8f0;
+  width: 100%;
+  position: relative;
+  z-index: 5;
 }
 
 // Кастомные стили для навигации
