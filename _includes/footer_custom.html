@@ -43,6 +43,15 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   
+  /* Переносим футер внутрь main-content, чтобы он не перекрывал текст */
+  var footer = document.querySelector('.site-footer');
+  var mainContent = document.querySelector('.main-content') || document.querySelector('.content') || document.querySelector('#main-content');
+  
+  if (footer && mainContent) {
+    mainContent.appendChild(footer);
+    console.log('Footer moved to main content');
+  }
+
   /* GitHub Alerts */
   var alertTypes = {
     'NOTE': { icon: '&#8505;&#65039;', cls: 'alert-note', color: '#0969da', label: 'На заметку' },

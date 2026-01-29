@@ -268,12 +268,21 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
 // ============================================
 @media (max-width: 800px) {
   .main-content {
-    padding-bottom: 80px;
+    // padding-bottom больше не нужен, футер внутри потока
   }
   
   .site-footer {
-    margin-bottom: 70px;
+    width: 100%;
+    margin-top: 3rem;
   }
+}
+
+// Общие стили для футера (на всех экранах)
+.site-footer {
+  background-color: transparent; // Фон не обязателен, если он в потоке
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
 }
 
 // Кастомные стили для навигации
