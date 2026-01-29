@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM Content Loaded - Starting Alerts processing');
   
   var alertTypes = {
-    'NOTE': { icon: '\u2139\uFE0F', cls: 'alert-note', color: '#0969da' },
-    'TIP': { icon: '\uD83D\uDCA1', cls: 'alert-tip', color: '#1a7f37' },
-    'IMPORTANT': { icon: '\u2757', cls: 'alert-important', color: '#8250df' },
-    'WARNING': { icon: '\u26A0\uFE0F', cls: 'alert-warning', color: '#9a6700' },
-    'CAUTION': { icon: '\uD83D\uDED1', cls: 'alert-caution', color: '#cf222e' }
+    'NOTE': { icon: '\u2139\uFE0F', cls: 'alert-note', color: '#0969da', label: 'На заметку' },
+    'TIP': { icon: '\uD83D\uDCA1', cls: 'alert-tip', color: '#1a7f37', label: 'Совет' },
+    'IMPORTANT': { icon: '\u2757', cls: 'alert-important', color: '#8250df', label: 'Важно' },
+    'WARNING': { icon: '\u26A0\uFE0F', cls: 'alert-warning', color: '#9a6700', label: 'Внимание' },
+    'CAUTION': { icon: '\uD83D\uDED1', cls: 'alert-caution', color: '#cf222e', label: 'Осторожно' }
   };
 
   var blockquotes = document.querySelectorAll('blockquote');
@@ -38,10 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
         var title = document.createElement('div');
         title.className = 'alert-title';
-        title.innerHTML = '<span style="margin-right: 8px; font-size: 1.2em;">' + config.icon + '</span><span style="font-weight: bold; color: ' + config.color + ';">' + type.charAt(0) + type.slice(1).toLowerCase() + '</span>';
+        title.innerHTML = '<span style="margin-right: 6px; font-size: 1.1em;">' + config.icon + '</span>' + 
+                          '<span style="font-weight: 700; font-size: 0.9em; color: ' + config.color + ';">' + config.label + '</span>';
         title.style.display = 'flex';
         title.style.alignItems = 'center';
-        title.style.marginBottom = '8px';
+        title.style.marginBottom = '6px'; // Меньше отступ
+        title.style.lineHeight = '1.2';   // Компактнее высота строки
         
         bq.insertBefore(title, firstP);
       }

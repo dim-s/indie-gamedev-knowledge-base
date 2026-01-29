@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
 
 // GitHub-style alerts
 .gfm-alert {
-  padding: 1rem;
+  padding: 0.75rem 1rem; // Чуть меньше сверху/снизу
   border-left-width: 4px;
   border-left-style: solid;
   border-radius: 6px;
@@ -52,12 +52,15 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.25rem 0; // Минимальный отступ от заголовка до текста
   }
   
   p:last-child {
     margin-bottom: 0;
   }
+  
+  // Чуть уменьшим размер текста внутри алерта
+  font-size: 0.95em;
 }
 
 // Поиск: цвета результатов
