@@ -190,16 +190,13 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('load', function() {
   setTimeout(function() {
     var footer = document.querySelector('.site-footer');
-    // Ищем контейнер страницы (обычно page-content или main-content)
     var container = document.querySelector('.page-content') || document.querySelector('.main-content') || document.body;
     
     if (footer && container) {
-      // Переносим футер в самый конец контейнера
       container.appendChild(footer);
       console.log('Footer moved to the absolute bottom');
-      // Делаем его видимым (на случай если скрывали)
       footer.style.display = 'block';
     }
-  }, 100); // Небольшая задержка, чтобы дать отработать скриптам темы
+  }, 100);
 });
 </script>
