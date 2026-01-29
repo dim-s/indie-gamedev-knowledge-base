@@ -99,10 +99,10 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
     background: #2563eb;
     border: none;
     cursor: pointer;
-    font-size: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
     transition: all 0.2s ease;
     
@@ -141,11 +141,11 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    color: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     transition: all 0.15s ease;
     
