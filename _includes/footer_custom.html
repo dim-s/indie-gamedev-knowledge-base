@@ -1,5 +1,5 @@
 <script>
-console.log('GitHub Alerts Script Loaded v2');
+console.log('GitHub Alerts Script Loaded v3');
 
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM Content Loaded - Starting Alerts processing');
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!firstP) continue;
     
     var text = firstP.innerHTML;
-    // Regex matches [!TYPE] or \[!TYPE\]
+    /* Regex matches [!TYPE] or \[!TYPE\] */
     var match = text.match(/^\s*(\\?\[|&#91;)!((?:NOTE|TIP|IMPORTANT|WARNING|CAUTION))(\\?\]|&#93;)\s*/i);
     
     if (match) {
