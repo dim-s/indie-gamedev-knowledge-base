@@ -1,9 +1,9 @@
-// Подключаем шрифты (Merriweather + Lato)
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+// Подключаем шрифты (Nunito)
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
 
 // Шрифты
-$body-font-family: "Merriweather", serif;
-$heading-font-family: "Lato", sans-serif;
+$body-font-family: "Nunito", sans-serif;
+$heading-font-family: "Nunito", sans-serif;
 $code-font-family: "Menlo", "Monaco", "Courier New", monospace;
 
 // Применяем шрифты к элементам
