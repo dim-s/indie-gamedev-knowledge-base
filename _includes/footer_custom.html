@@ -1,3 +1,15 @@
+<!-- Share Floating Button (справа) -->
+<div class="share-float">
+  <button class="share-float-trigger" title="Поделиться">📤</button>
+  <div class="share-float-menu">
+    <button class="share-btn share-copy" title="Копировать ссылку">🔗</button>
+    <a class="share-btn share-telegram" title="Telegram" target="_blank" rel="noopener">✈️</a>
+    <a class="share-btn share-vk" title="VK" target="_blank" rel="noopener">💬</a>
+    <a class="share-btn share-twitter" title="X/Twitter" target="_blank" rel="noopener">𝕏</a>
+  </div>
+  <div class="share-copied">Скопировано!</div>
+</div>
+
 <!-- Site Footer -->
 <footer class="site-footer">
   <div class="footer-content">
@@ -86,6 +98,45 @@ document.addEventListener('DOMContentLoaded', function() {
     readingTimeEl.innerHTML = '<span class="reading-time-icon">⏱</span> ~' + readingTime + ' ' + pluralMinutes(readingTime) + ' чтения';
     
     firstH1.parentNode.insertBefore(readingTimeEl, firstH1.nextSibling);
+  }
+  
+  /* Share Floating Button */
+  var shareFloat = document.querySelector('.share-float');
+  if (shareFloat) {
+    var pageUrl = encodeURIComponent(window.location.href);
+    var pageTitle = encodeURIComponent(document.title);
+    var trigger = shareFloat.querySelector('.share-float-trigger');
+    var menu = shareFloat.querySelector('.share-float-menu');
+    var copiedMsg = shareFloat.querySelector('.share-copied');
+    
+    var tgBtn = shareFloat.querySelector('.share-telegram');
+    if (tgBtn) tgBtn.href = 'https://t.me/share/url?url=' + pageUrl + '&text=' + pageTitle;
+    
+    var vkBtn = shareFloat.querySelector('.share-vk');
+    if (vkBtn) vkBtn.href = 'https://vk.com/share.php?url=' + pageUrl + '&title=' + pageTitle;
+    
+    var twBtn = shareFloat.querySelector('.share-twitter');
+    if (twBtn) twBtn.href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+    
+    trigger.addEventListener('click', function() {
+      shareFloat.classList.toggle('open');
+    });
+    
+    var copyBtn = shareFloat.querySelector('.share-copy');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', function() {
+        navigator.clipboard.writeText(window.location.href).then(function() {
+          copiedMsg.classList.add('visible');
+          setTimeout(function() { copiedMsg.classList.remove('visible'); }, 1500);
+        });
+      });
+    }
+    
+    document.addEventListener('click', function(e) {
+      if (!shareFloat.contains(e.target)) {
+        shareFloat.classList.remove('open');
+      }
+    });
   }
   
   /* Back to Top Button */

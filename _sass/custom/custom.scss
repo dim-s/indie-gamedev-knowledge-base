@@ -84,10 +84,140 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
 }
 
 // ============================================
+// Share Floating Button (Плавающая кнопка "Поделиться")
+// ============================================
+.share-float {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 5rem;
+  z-index: 999;
+  
+  .share-float-trigger {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #2563eb;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: #1d4ed8;
+      transform: scale(1.05);
+    }
+  }
+  
+  .share-float-menu {
+    position: absolute;
+    bottom: 56px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.2s ease;
+  }
+  
+  &.open .share-float-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  &.open .share-float-trigger {
+    background: #1e40af;
+  }
+  
+  .share-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: all 0.15s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .share-copy {
+    background: #475569;
+    &:hover { background: #334155; }
+  }
+  
+  .share-telegram {
+    background: #0088cc;
+    &:hover { background: #006699; }
+  }
+  
+  .share-vk {
+    background: #4a76a8;
+    &:hover { background: #3d6590; }
+  }
+  
+  .share-twitter {
+    background: #1a1a1a;
+    &:hover { background: #333; }
+  }
+  
+  .share-copied {
+    position: absolute;
+    right: 56px;
+    bottom: 0;
+    background: #16a34a;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.4rem 0.7rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    right: 1rem;
+    bottom: 4.5rem;
+    
+    .share-float-trigger {
+      width: 44px;
+      height: 44px;
+      font-size: 1.1rem;
+    }
+    
+    .share-btn {
+      width: 40px;
+      height: 40px;
+      font-size: 1rem;
+    }
+  }
+}
+
+// ============================================
 // Site Footer (Футер сайта)
 // ============================================
 .site-footer {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   padding: 1.5rem 0;
   border-top: 1px solid #e2e8f0;
   
