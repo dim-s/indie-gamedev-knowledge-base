@@ -1,6 +1,9 @@
 <script>
+console.log('GitHub Alerts Script Loaded');
+
 document.addEventListener('DOMContentLoaded', function() {
-  // GitHub-style alerts support
+  console.log('DOM Content Loaded - Starting Alerts processing');
+  
   var alertTypes = {
     'NOTE': { icon: '&#8505;&#65039;', cls: 'alert-note', color: '#0969da' },
     'TIP': { icon: '&#128161;', cls: 'alert-tip', color: '#1a7f37' },
@@ -10,31 +13,49 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   var blockquotes = document.querySelectorAll('blockquote');
+  console.log('Found ' + blockquotes.length + ' blockquotes');
+
   for (var i = 0; i < blockquotes.length; i++) {
     var bq = blockquotes[i];
     var firstP = bq.querySelector('p');
-    if (!firstP) continue;
+    if (!firstP) {
+        // Иногда текст может быть без p, если он короткий, или структура другая
+        console.log('Blockquote ' + i + ' has no P tag');
+        continue;
+    }
     
     var text = firstP.innerHTML;
-    var match = text.match(/^\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\\?\]\s*/);
+    console.log('Checking blockquote: ' + text.substring(0, 20) + '...');
+
+    // Регулярка ищет [!TYPE] или \[!TYPE\] в начале строки
+    // Учитываем возможное экранирование и пробелы
+    var match = text.match(/^\s*(\\?\[|&#91;)!((?:NOTE|TIP|IMPORTANT|WARNING|CAUTION))(\\?\]|&#93;)\s*/i);
     
     if (match) {
-      var type = match[1];
+      var type = match[2].toUpperCase();
+      console.log('Match found! Type: ' + type);
       var config = alertTypes[type];
       
-      firstP.innerHTML = text.replace(match[0], '');
-      
-      bq.className = bq.className + ' gfm-alert ' + config.cls;
-      bq.style.borderLeftColor = config.color;
-      bq.style.backgroundColor = config.color + '10';
-      
-      var title = document.createElement('p');
-      title.className = 'alert-title';
-      title.innerHTML = config.icon + ' ' + type.charAt(0) + type.slice(1).toLowerCase();
-      title.style.color = config.color;
-      title.style.fontWeight = '600';
-      title.style.marginBottom = '0.25rem';
-      bq.insertBefore(title, firstP);
+      if (config) {
+        // Удаляем маркер из текста
+        firstP.innerHTML = text.replace(match[0], '');
+        
+        // Добавляем классы и стили
+        bq.classList.add('gfm-alert', config.cls);
+        bq.style.borderLeftColor = config.color;
+        bq.style.backgroundColor = config.color + '10'; // 10 = low opacity hex
+        
+        // Создаем заголовок
+        var title = document.createElement('div');
+        title.className = 'alert-title';
+        title.innerHTML = '<span style="margin-right: 8px; font-size: 1.2em;">' + config.icon + '</span>' + 
+                          '<span style="font-weight: bold; color: ' + config.color + ';">' + type.charAt(0) + type.slice(1).toLowerCase() + '</span>';
+        title.style.display = 'flex';
+        title.style.alignItems = 'center';
+        title.style.marginBottom = '8px';
+        
+        bq.insertBefore(title, firstP);
+      }
     }
   }
 });
