@@ -1,3 +1,18 @@
+// Шрифты
+$body-font-family: "Merriweather", serif;
+$heading-font-family: "Lato", sans-serif;
+$code-font-family: "Menlo", "Monaco", "Courier New", monospace;
+
+// Применяем шрифты к элементам
+body {
+  font-family: $body-font-family;
+  line-height: 1.6; // Чуть больше воздуха для serif шрифта
+}
+
+h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
+  font-family: $heading-font-family;
+}
+
 // Кастомные стили для навигации
 // Убираем градиент, делаем нормальный контраст
 
@@ -39,5 +54,33 @@
   
   p:last-child {
     margin-bottom: 0;
+  }
+}
+
+// Поиск: цвета результатов
+// Делаем текст белым на синем фоне при выделении
+.search-result.active {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+  
+  // Подсветка совпадений внутри активного элемента должна быть светлой
+  .search-result-highlight {
+    color: #2563eb !important;     // Синий текст
+    background-color: #ffffff !important; // Белый фон
+  }
+  
+  // Заголовки и текст внутри активного элемента
+  .search-result-title, 
+  .search-result-doc-title,
+  .search-result-section,
+  .search-result-rel-url,
+  .search-result-previews,
+  .search-result-preview {
+    color: #ffffff !important;
+  }
+  
+  // Иконки делаем белыми
+  .search-result-icon {
+    color: #ffffff !important;
   }
 }
