@@ -8,6 +8,13 @@
     background-color: #eff6ff !important;
     color: #1e40af !important;  // Тёмно-синий текст
   }
+  
+  // Hover — белый текст на синем фоне
+  .nav-list-link:hover {
+    background-image: none !important;
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+  }
 }
 
 // Боковая полоса у активного элемента

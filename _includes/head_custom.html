@@ -14,13 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!firstP) return;
     
     const text = firstP.innerHTML;
-    const match = text.match(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*/);
+    // Match both [!NOTE] and \[!NOTE\] (escaped brackets)
+    const match = text.match(/^\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\\?\]\s*/);
     
     if (match) {
       const type = match[1];
       const config = alertTypes[type];
       
-      // Remove [!TYPE] from text
+      // Remove [!TYPE] or \[!TYPE\] from text
       firstP.innerHTML = text.replace(match[0], '');
       
       // Style the blockquote
