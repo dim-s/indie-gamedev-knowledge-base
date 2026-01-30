@@ -21,6 +21,16 @@ h1, h2, h3, h4, h5, h6, .site-title, .nav-list-link, .btn {
   font-family: $heading-font-family;
 }
 
+// Делаем h3 более заметным, но меньше h2
+h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #0f172a; // Темный Slate 900 для контраста
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
 // ============================================
 // Reading Time (Время чтения)
 // ============================================
