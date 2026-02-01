@@ -8,6 +8,12 @@ description: "Гайды, шаблоны и методология (OGD) от о
 # Цветовая схема (кастомная зелёная)
 color_scheme: organic
 
+# Ссылка на GitHub в шапке (справа от поиска)
+aux_links:
+  "GitHub":
+    - "https://github.com/dim-s/indie-gamedev-knowledge-base"
+aux_links_new_tab: true
+
 # Поиск
 search_enabled: true
 search:

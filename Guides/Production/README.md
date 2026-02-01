@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Производство
+title: Производство игр
 nav_order: 6
 has_children: true
 permalink: /production/
