@@ -2,7 +2,7 @@
 layout: default
 title: "Полное руководство OGD"
 parent: OGD (Методология)
-nav_order: 1
+nav_order: 2
 ---
 
 <a name="ogd-top"></a>

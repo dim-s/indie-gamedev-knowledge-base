@@ -2,7 +2,7 @@
 layout: default
 title: "Глоссарий"
 parent: OGD (Методология)
-nav_order: 3
+nav_order: 4
 ---
 
 # Глоссарий OGD

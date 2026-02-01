@@ -2,7 +2,7 @@
 layout: default
 title: "FAQ (быстрые ответы)"
 parent: OGD (Методология)
-nav_order: 2
+nav_order: 3
 ---
 
 # FAQ (быстрые ответы)
