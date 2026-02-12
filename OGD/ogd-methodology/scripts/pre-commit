@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# Git pre-commit hook: обновляет OGD-скилл при изменениях в .md файлах.
+#
+# Установка: make install-hooks
+#
+
+CHANGED_MD=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^(OGD|Guides)/.*\.md$')
+
+if [ -z "$CHANGED_MD" ]; then
+    exit 0
+fi
+
+echo "[OGD Skill] Обнаружены изменения в .md файлах, обновляю скилл..."
+
+python3 OGD/ogd-methodology/scripts/update.py
+
+if [ $? -ne 0 ]; then
+    echo "[OGD Skill] Ошибка при обновлении"
+    exit 1
+fi
+
+git add OGD/ogd-methodology/references/ OGD/ogd-methodology/navigation-map.md
+
+echo "[OGD Skill] references/ и navigation-map.md обновлены и добавлены в коммит."
+exit 0
