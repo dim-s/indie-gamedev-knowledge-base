@@ -7,7 +7,7 @@ permalink: /ogd/
 mermaid: true
 ---
 
-# Organic Game Design (OGD) v0.9.1-beta
+# Organic Game Design (OGD) `v0.9.2-beta`
 > Метод Органического Геймдизайна
 
 **Хватит гадать, где прячется «фан». Начните проектировать ту игру, которая нужна игроку.**
