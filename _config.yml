@@ -39,3 +39,4 @@ plugins:
 exclude:
   - LICENSE
   - .DS_Store
+  - OGD/ogd-methodology
