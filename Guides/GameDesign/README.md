@@ -25,6 +25,9 @@ permalink: /gamedesign/
 - [OGD и решение парадоксов геймдизайна](ogd-and-game-design-paradoxes.md) — почему работают "скучные" игры.
 - [Радиосвязь и Эффект Бинокля](narrative-radio-system.md) — нарратив без катсцен: как сэкономить бюджет и не убить поток (кейс Galaxy Pass Station).
 
+### Деконструкции жанров
+- [Dark Cozy: почему уют сильнее, когда за окном темно](dark-cozy-deconstruction.md) — как устроен жанр, почему тьма усиливает уют, и типичные ошибки.
+
 ### Кейсы
 - [Кейс Galaxy Burger: Ловушка памяти](case-study-galaxy-burger-memory-trap.md) — постмортем механики рецептов.
 - [Кейс: Balatro vs Durak. Как сделать игру на базе нашей игры в "Дурака" и продать её миру](durak-balatro-ogd-case.md)

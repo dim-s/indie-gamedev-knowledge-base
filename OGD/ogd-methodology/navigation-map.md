@@ -9,116 +9,123 @@
 
 ## Ядро методологии
 
-### `references/OGD.md` (2579 строк)
+### `references/OGD.md` (2782 строк)
 
 | Строка | Якорь | Заголовок |
 |--------|-------|-----------|
 | 9 | `ogd-top` | # Organic Game Design (OGD) |
 | 23 | `ogd-toc` | ## Оглавление |
-| 133 | `ogd-questions` | ## На какие вопросы отвечает OGD? |
-| 147 | `ogd-tldr` | # TL:DR (В двух словах о методе) |
-| 159 | `ogd-definition` | &nbsp;&nbsp;### OGD - определение метода |
-| 238 | `ogd-philosophy` | # Философский контекст |
-| 251 | `ogd-axiom` | # Базовая Аксиома |
-| 266 | `ogd-human-factor` | ## Человеческий Фактор |
-| 273 | `ogd-organic-vs-synthetic` | ## Органические vs. Синтетические игры |
-| 311 | `ogd-game-types` | ## Базовые типы игр |
-| 318 | `ogd-game-types-contents` | &nbsp;&nbsp;### Содержимое, которое определяет тип игры |
-| 343 | `ogd-game-shelter` | &nbsp;&nbsp;### Игра-Убежище |
-| 376 | `ogd-game-simulator` | &nbsp;&nbsp;### Игра-Тренажёр |
-| 394 | `ogd-game-pendulum` | &nbsp;&nbsp;### Игра-Маятник |
-| 412 | `ogd-game-buffet` | &nbsp;&nbsp;### Игра-Буфет |
-| 431 | `ogd-shelter-rarity` | &nbsp;&nbsp;### Иллюзия редкости Игр-Убежищ |
-| 449 | `ogd-spheres` | # Пять сфер жизни игрока |
-| 498 | `ogd-sphere-cognition` | &nbsp;&nbsp;### 1. Познание (разум) 🧠 |
-| 506 | `ogd-sphere-environment` | &nbsp;&nbsp;### 2. Среда (окружение) 🏙️ |
-| 514 | `ogd-sphere-power` | &nbsp;&nbsp;### 3. Сила (конфликт и иерархия) 😡 |
-| 526 | `ogd-sphere-resources` | &nbsp;&nbsp;### 4. Ресурсы (активы) 💰 |
-| 537 | `ogd-sphere-society` | &nbsp;&nbsp;### 5. Социум (связи и люди) 👫 |
-| 553 | `ogd-agency-tools` | # Агентность и инструменты OGD |
-| 569 | `ogd-tools-boundaries` | &nbsp;&nbsp;### 1. Инструменты Границ 🗺️ |
-| 579 | `ogd-tools-structure` | &nbsp;&nbsp;### 2. Инструменты Структуры 📦 |
-| 592 | `ogd-tools-efficiency` | &nbsp;&nbsp;### 3. Инструменты Эффективности 🏭 |
-| 611 | `ogd-tools-power` | &nbsp;&nbsp;### 4. Инструменты Силы 💪 |
-| 621 | `ogd-tools-society` | &nbsp;&nbsp;### 5. Инструменты Социума 🗣️ |
-| 631 | `ogd-tools-chance` | &nbsp;&nbsp;### 6. Инструменты Шанса (Джокер) 🎲 |
-| 647 | `ogd-tools-pick` | ## Как подбирать верный инструмент для игрока |
-| 714 | `ogd-innovation` | ## Где рождаются инновации |
-| 730 | `ogd-mechanics-glossary` | ## Справочник игровых механик → глаголы OGD |
-| 739 | `ogd-mechanics-ambiguous` | &nbsp;&nbsp;### Как выбирать глагол, если механика “двусмысленная” |
-| 756 | `ogd-mechanics-table` | &nbsp;&nbsp;### Таблица соответствий |
-| 798 | `ogd-sensory-layer` | ## Сенсорный слой и Game Feel |
-| 820 | `ogd-sensory-validation` | &nbsp;&nbsp;### Валидация Агентности (Сочность / Juice) |
-| 844 | `ogd-sensory-rhythm` | &nbsp;&nbsp;### Ритм Обратной Связи |
-| 909 | `ogd-sensory-noise` | &nbsp;&nbsp;### Сенсорный Шум (Скрытый Хаос) |
-| 928 | `ogd-audiences` | ## Справочник аудиторий по эпохам жизни |
-| 967 | `ogd-audience-preschool` | &nbsp;&nbsp;### Дошкольники (3–6 лет) 🧸 |
-| 1003 | `ogd-audience-early-school` | &nbsp;&nbsp;### Ранняя школа (примерно 6–10/11 лет) 🎒 |
-| 1039 | `ogd-audience-puberty` | &nbsp;&nbsp;### Поздняя школа / пубертат (примерно 12–17 лет) 🧑‍🎤 |
-| 1075 | `ogd-audience-students` | &nbsp;&nbsp;### Студенчество / колледж (примерно 18–24/25 лет) 🎓 |
-| 1111 | `ogd-audience-work-25-44` | &nbsp;&nbsp;### Работа (примерно 25–44 лет) 💼 |
-| 1147 | `ogd-audience-work-45-60` | &nbsp;&nbsp;### Работа (примерно 45–60 лет) 👔 |
-| 1183 | `ogd-audience-retirement` | &nbsp;&nbsp;### Пенсия (примерно 60+) 🌅 |
-| 1225 | `ogd-narrative` | # Нарратив и Сюжет |
-| 1233 | `ogd-narrative-agency-loops` | &nbsp;&nbsp;### Два контура Агентности |
-| 1253 | `ogd-narrative-cognitive-physics` | &nbsp;&nbsp;### Когнитивная Физика Нарратива (Цена Входа) |
-| 1277 | `ogd-narrative-identification` | &nbsp;&nbsp;### Спектр Идентификации (Как работает эмпатия) |
-| 1282 | `ogd-narrative-id-desire` | &nbsp;&nbsp;&nbsp;&nbsp;#### 1. Идентификация Желания ("Я хочу быть им") |
-| 1294 | `ogd-narrative-id-similarity` | &nbsp;&nbsp;&nbsp;&nbsp;#### 2. Идентификация Сходства ("Он такой же, как я") |
-| 1306 | `ogd-narrative-id-empathy` | &nbsp;&nbsp;&nbsp;&nbsp;#### 3. Эмпатическое Наблюдение ("Я понимаю его") |
-| 1318 | `ogd-narrative-tools` | &nbsp;&nbsp;### Нарративные Инструменты OGD (Справочник) |
-| 1334 | `ogd-narrative-harmony` | &nbsp;&nbsp;### Синхронизация Контуров (Ludonarrative Harmony) |
-| 1339 | `ogd-narrative-harmony-typology` | &nbsp;&nbsp;&nbsp;&nbsp;#### Типология Синхронизации (Матрица Геймплей + Нарратив) |
-| 1366 | `ogd-case-disco-elysium` | &nbsp;&nbsp;### Кейс: Феномен Disco Elysium |
-| 1381 | `ogd-narrative-role` | &nbsp;&nbsp;### Роль Нарратива в Типах Игр (Связка) |
-| 1416 | `ogd-outside-games` | &nbsp;&nbsp;### Гипотеза применимости OGD вне игр |
-| 1423 | `ogd-retention-ltv` | # Удержание игрока (LTV — пожизненная ценность игрока) |
-| 1431 | `ogd-toxic-flow` | &nbsp;&nbsp;### Феномен Токсичного Потока |
-| 1453 | `ogd-ltv-paradox` | &nbsp;&nbsp;### Парадокс LTV: Отпускать, чтобы удерживать |
-| 1474 | `ogd-soft-landing` | ## Протокол «Мягкой Посадки» |
-| 1503 | `ogd-cases` | ## Разбор Кейсов |
-| 1542 | `ogd-last-screen-test` | ## Тест Последнего Экрана |
-| 1566 | `ogd-inertia-entry` | # Игровая инерция и Цена входа |
-| 1587 | `ogd-entry-barrier` | ## Барьер входа и инерция |
-| 1601 | `ogd-innovators-mass` | ## Игроки-новаторы и массовая аудитория |
-| 1610 | `ogd-innovators` | &nbsp;&nbsp;### Новаторы и ранние последователи (высокий когнитивный ресурс) |
-| 1615 | `ogd-majority` | &nbsp;&nbsp;### Раннее и позднее большинство (высокий барьер входа) |
-| 1626 | `ogd-indie-early-market` | ## Ограничение “раннего рынка” для инди |
-| 1650 | `ogd-through-barrier` | ## Как провести игрока через барьер входа? |
-| 1660 | `ogd-transit-marketing` | &nbsp;&nbsp;### Фаза 1: Маркетинговый транзит (обещание) |
-| 1693 | `ogd-transit-gameplay` | &nbsp;&nbsp;### Фаза 2: Геймплейный транзит (доказательство) |
-| 1719 | `ogd-business-strategies` | ## Две бизнес-стратегии |
-| 1730 | `ogd-social-proof` | ## Эффект социального доказательства |
-| 1748 | `ogd-retention-mass` | ## Удержание игрока массовой аудитории |
-| 1780 | `ogd-marketing-homeostasis` | # Маркетинг Регуляции (преодоление шума) |
-| 1799 | `ogd-marketing-formula` | ## Формула обещания |
-| 1818 | `ogd-marketing-tool-choice` | ## Алгоритм выбора инструмента |
-| 1854 | `ogd-marketing-strategies` | ## Стратегии продажи |
-| 1936 | `ogd-familiar-code` | ## Правило Знакомого Кода |
-| 1959 | `ogd-visual-design` | ## Визуальная подача |
-| 2009 | `ogd-genre-setting` | # Жанр и сеттинг |
-| 2015 | — | &nbsp;&nbsp;### Вкус как Когнитивная Скидка |
-| 2028 | — | &nbsp;&nbsp;### Роль Жанра и Сеттинга |
-| 2035 | `ogd-setting-expectations` | ## Карта ожиданий сеттинга |
-| 2070 | `ogd-genre-expectations` | ## Карта жанровых ожиданий |
-| 2093 | `ogd-dissonance-algorithm` | ## Алгоритм проверки на диссонанс жанра и сеттинга |
-| 2112 | `ogd-dissonance-trap` | ## Ловушка диссонанса |
-| 2123 | `ogd-dissonance-impact` | ## Как это влияет на геймдизайн |
-| 2150 | `ogd-protocol-application` | # Протокол применения OGD (практическая процедура) |
-| 2162 | `ogd-mode-a` | ## Режим A: От игры к аудитории (кто в это играет?) |
-| 2248 | `ogd-mode-b` | ## Режим B: От аудитории к игре (когда вы ищете концепт) |
-| 2287 | `ogd-mode-c` | ## Режим C: Диагностика (почему не работает?) |
-| 2360 | `ogd-mode-d` | ## Режим D: Маркетинг без доступа к геймплею (что мы обещаем рынку?) |
-| 2415 | `ogd-mini-checks` | ## Мини-проверки |
-| 2427 | `ogd-where-not-work` | # Где OGD не работает |
-| 2436 | `ogd-where-fails` | &nbsp;&nbsp;### Где OGD даёт сильный сбой и не работает: |
-| 2462 | `ogd-marketing-helps` | &nbsp;&nbsp;### Как маркетинг помогает преодолевать ограничения и сбои OGD |
-| 2489 | `ogd-epilogue` | # Эпилог: Конкуренция за Агентность |
-| 2502 | `ogd-loyalty` | ## Долгосрочная лояльность |
-| 2519 | `ogd-afterword` | # Послесловие |
-| 2532 | `ogd-appendix` | # Приложение: Ограничения и контр-аргументы |
-| 2539 | `ogd-confidence-map` | &nbsp;&nbsp;### Карта уверенности метода |
-| 2548 | `ogd-counter-args` | &nbsp;&nbsp;### Ключевые контр-аргументы |
+| 140 | `ogd-questions` | ## На какие вопросы отвечает OGD? |
+| 154 | `ogd-tldr` | # TL:DR (В двух словах о методе) |
+| 166 | `ogd-definition` | &nbsp;&nbsp;### OGD - определение метода |
+| 249 | `ogd-philosophy` | # Философский контекст |
+| 262 | `ogd-axiom` | # Базовая Аксиома |
+| 277 | `ogd-human-factor` | ## Человеческий Фактор |
+| 284 | `ogd-organic-vs-synthetic` | ## Органические vs. Синтетические игры |
+| 322 | `ogd-game-types` | ## Базовые типы игр |
+| 329 | `ogd-game-types-contents` | &nbsp;&nbsp;### Содержимое, которое определяет тип игры |
+| 363 | `ogd-game-shelter` | &nbsp;&nbsp;### Игра-Убежище |
+| 396 | `ogd-game-simulator` | &nbsp;&nbsp;### Игра-Тренажёр |
+| 414 | `ogd-game-pendulum` | &nbsp;&nbsp;### Игра-Маятник |
+| 432 | `ogd-game-buffet` | &nbsp;&nbsp;### Игра-Буфет |
+| 451 | `ogd-shelter-rarity` | &nbsp;&nbsp;### Иллюзия редкости Игр-Убежищ |
+| 469 | `ogd-spheres` | # Пять сфер жизни игрока |
+| 518 | `ogd-sphere-cognition` | &nbsp;&nbsp;### 1. Познание (разум) 🧠 |
+| 526 | `ogd-sphere-environment` | &nbsp;&nbsp;### 2. Среда (окружение) 🏙️ |
+| 534 | `ogd-sphere-power` | &nbsp;&nbsp;### 3. Сила (конфликт и иерархия) 😡 |
+| 546 | `ogd-sphere-resources` | &nbsp;&nbsp;### 4. Ресурсы (активы) 💰 |
+| 557 | `ogd-sphere-society` | &nbsp;&nbsp;### 5. Социум (связи и люди) 👫 |
+| 573 | `ogd-agency-tools` | # Агентность и инструменты OGD |
+| 589 | `ogd-tools-boundaries` | &nbsp;&nbsp;### 1. Инструменты Границ 🗺️ |
+| 599 | `ogd-tools-structure` | &nbsp;&nbsp;### 2. Инструменты Структуры 📦 |
+| 612 | `ogd-tools-efficiency` | &nbsp;&nbsp;### 3. Инструменты Эффективности 🏭 |
+| 631 | `ogd-tools-power` | &nbsp;&nbsp;### 4. Инструменты Силы 💪 |
+| 641 | `ogd-tools-society` | &nbsp;&nbsp;### 5. Инструменты Социума 🗣️ |
+| 651 | `ogd-tools-chance` | &nbsp;&nbsp;### 6. Инструменты Шанса (Джокер) 🎲 |
+| 667 | `ogd-tools-pick` | ## Как подбирать верный инструмент для игрока |
+| 734 | `ogd-innovation` | ## Где рождаются инновации |
+| 750 | `ogd-mechanics-glossary` | ## Справочник игровых механик → глаголы OGD |
+| 759 | `ogd-mechanics-ambiguous` | &nbsp;&nbsp;### Как выбирать глагол, если механика “двусмысленная” |
+| 776 | `ogd-mechanics-table` | &nbsp;&nbsp;### Таблица соответствий |
+| 818 | `ogd-sensory-layer` | ## Сенсорный слой и Game Feel |
+| 840 | `ogd-sensory-validation` | &nbsp;&nbsp;### Валидация Агентности (Сочность / Juice) |
+| 864 | `ogd-sensory-rhythm` | &nbsp;&nbsp;### Ритм Обратной Связи |
+| 929 | `ogd-sensory-noise` | &nbsp;&nbsp;### Сенсорный Шум (Скрытый Хаос) |
+| 961 | `ogd-audiences` | ## Справочник аудиторий по эпохам жизни |
+| 1000 | `ogd-audience-preschool` | &nbsp;&nbsp;### Дошкольники (3–6 лет) 🧸 |
+| 1036 | `ogd-audience-early-school` | &nbsp;&nbsp;### Ранняя школа (примерно 6–10/11 лет) 🎒 |
+| 1072 | `ogd-audience-puberty` | &nbsp;&nbsp;### Поздняя школа / пубертат (примерно 12–17 лет) 🧑‍🎤 |
+| 1108 | `ogd-audience-students` | &nbsp;&nbsp;### Студенчество / колледж (примерно 18–24/25 лет) 🎓 |
+| 1144 | `ogd-audience-work-25-44` | &nbsp;&nbsp;### Работа (примерно 25–44 лет) 💼 |
+| 1180 | `ogd-audience-work-45-60` | &nbsp;&nbsp;### Работа (примерно 45–60 лет) 👔 |
+| 1216 | `ogd-audience-retirement` | &nbsp;&nbsp;### Пенсия (примерно 60+) 🌅 |
+| 1258 | `ogd-narrative` | # Нарратив и Сюжет |
+| 1266 | `ogd-narrative-agency-loops` | &nbsp;&nbsp;### Два контура Агентности |
+| 1286 | `ogd-narrative-cognitive-physics` | &nbsp;&nbsp;### Когнитивная Физика Нарратива (Цена Входа) |
+| 1310 | `ogd-narrative-identification` | &nbsp;&nbsp;### Спектр Идентификации (Как работает эмпатия) |
+| 1315 | `ogd-narrative-id-desire` | &nbsp;&nbsp;&nbsp;&nbsp;#### 1. Идентификация Желания ("Я хочу быть им") |
+| 1327 | `ogd-narrative-id-similarity` | &nbsp;&nbsp;&nbsp;&nbsp;#### 2. Идентификация Сходства ("Он такой же, как я") |
+| 1339 | `ogd-narrative-id-empathy` | &nbsp;&nbsp;&nbsp;&nbsp;#### 3. Эмпатическое Наблюдение ("Я понимаю его") |
+| 1351 | `ogd-narrative-tools` | &nbsp;&nbsp;### Нарративные Инструменты OGD (Справочник) |
+| 1367 | `ogd-narrative-harmony` | &nbsp;&nbsp;### Синхронизация Контуров (Ludonarrative Harmony) |
+| 1372 | `ogd-narrative-harmony-typology` | &nbsp;&nbsp;&nbsp;&nbsp;#### Типология Синхронизации (Матрица Геймплей + Нарратив) |
+| 1399 | `ogd-case-disco-elysium` | &nbsp;&nbsp;### Кейс: Феномен Disco Elysium |
+| 1414 | `ogd-narrative-role` | &nbsp;&nbsp;### Роль Нарратива в Типах Игр (Связка) |
+| 1449 | `ogd-outside-games` | &nbsp;&nbsp;### Гипотеза применимости OGD вне игр |
+| 1456 | `ogd-retention-ltv` | # Удержание игрока (LTV — пожизненная ценность игрока) |
+| 1464 | `ogd-toxic-flow` | &nbsp;&nbsp;### Феномен Токсичного Потока |
+| 1486 | `ogd-ltv-paradox` | &nbsp;&nbsp;### Парадокс LTV: Отпускать, чтобы удерживать |
+| 1507 | `ogd-soft-landing` | ## Протокол «Мягкой Посадки» |
+| 1541 | `ogd-cases` | ## Разбор Кейсов |
+| 1580 | `ogd-last-screen-test` | ## Тест Последнего Экрана |
+| 1610 | `ogd-inertia-entry` | # Игровая инерция и Цена входа |
+| 1631 | `ogd-entry-barrier` | ## Барьер входа и инерция |
+| 1645 | `ogd-two-refusal-types` | &nbsp;&nbsp;### Два типа отказа |
+| 1656 | `ogd-innovators-mass` | ## Игроки-новаторы и массовая аудитория |
+| 1665 | `ogd-innovators` | &nbsp;&nbsp;### Новаторы и ранние последователи (высокий когнитивный ресурс) |
+| 1670 | `ogd-majority` | &nbsp;&nbsp;### Раннее и позднее большинство (высокий барьер входа) |
+| 1681 | `ogd-indie-early-market` | ## Ограничение “раннего рынка” для инди |
+| 1705 | `ogd-through-barrier` | ## Как провести игрока через барьер входа? |
+| 1715 | `ogd-transit-marketing` | &nbsp;&nbsp;### Фаза 1: Маркетинговый транзит (обещание) |
+| 1748 | `ogd-two-promise-layers` | &nbsp;&nbsp;&nbsp;&nbsp;#### Два слоя обещания |
+| 1763 | `ogd-distance-gap` | &nbsp;&nbsp;&nbsp;&nbsp;#### Разрыв дистанции (почему интерес не конвертируется в покупку) |
+| 1789 | `ogd-feasibility-anchors` | &nbsp;&nbsp;&nbsp;&nbsp;#### Якоря осуществимости |
+| 1836 | `ogd-launch-switch` | &nbsp;&nbsp;&nbsp;&nbsp;#### Переключение страницы на релизе |
+| 1846 | `ogd-social-distance` | &nbsp;&nbsp;&nbsp;&nbsp;#### Эффект чужого выбора |
+| 1857 | `ogd-transit-gameplay` | &nbsp;&nbsp;### Фаза 2: Геймплейный транзит (доказательство) |
+| 1892 | `ogd-business-strategies` | ## Две бизнес-стратегии |
+| 1903 | `ogd-social-proof` | ## Эффект социального доказательства |
+| 1921 | `ogd-retention-mass` | ## Удержание игрока массовой аудитории |
+| 1953 | `ogd-marketing-homeostasis` | # Маркетинг Регуляции (преодоление шума) |
+| 1972 | `ogd-marketing-formula` | ## Формула обещания |
+| 1991 | `ogd-marketing-tool-choice` | ## Алгоритм выбора инструмента |
+| 2027 | `ogd-marketing-strategies` | ## Стратегии продажи |
+| 2109 | `ogd-familiar-code` | ## Правило Знакомого Кода |
+| 2127 | `ogd-familiar-code-levels` | &nbsp;&nbsp;### Три уровня Знакомого Кода |
+| 2152 | `ogd-visual-design` | ## Визуальная подача |
+| 2202 | `ogd-genre-setting` | # Жанр и сеттинг |
+| 2208 | — | &nbsp;&nbsp;### Вкус как Когнитивная Скидка |
+| 2221 | — | &nbsp;&nbsp;### Роль Жанра и Сеттинга |
+| 2228 | `ogd-setting-expectations` | ## Карта ожиданий сеттинга |
+| 2263 | `ogd-genre-expectations` | ## Карта жанровых ожиданий |
+| 2286 | `ogd-dissonance-algorithm` | ## Алгоритм проверки на диссонанс жанра и сеттинга |
+| 2305 | `ogd-dissonance-trap` | ## Ловушка диссонанса |
+| 2316 | `ogd-dissonance-impact` | ## Как это влияет на геймдизайн |
+| 2343 | `ogd-protocol-application` | # Протокол применения OGD (практическая процедура) |
+| 2355 | `ogd-mode-a` | ## Режим A: От игры к аудитории (кто в это играет?) |
+| 2441 | `ogd-mode-b` | ## Режим B: От аудитории к игре (когда вы ищете концепт) |
+| 2480 | `ogd-mode-c` | ## Режим C: Диагностика (почему не работает?) |
+| 2553 | `ogd-mode-d` | ## Режим D: Маркетинг без доступа к геймплею (что мы обещаем рынку?) |
+| 2616 | `ogd-mini-checks` | ## Мини-проверки |
+| 2628 | `ogd-where-not-work` | # Где OGD не работает |
+| 2637 | `ogd-where-fails` | &nbsp;&nbsp;### Где OGD даёт сильный сбой и не работает: |
+| 2663 | `ogd-marketing-helps` | &nbsp;&nbsp;### Как маркетинг помогает преодолевать ограничения и сбои OGD |
+| 2690 | `ogd-epilogue` | # Эпилог: Конкуренция за Агентность |
+| 2703 | `ogd-loyalty` | ## Долгосрочная лояльность |
+| 2720 | `ogd-afterword` | # Послесловие |
+| 2733 | `ogd-appendix` | # Приложение: Ограничения и контр-аргументы |
+| 2740 | `ogd-confidence-map` | &nbsp;&nbsp;### Карта уверенности метода |
+| 2751 | `ogd-counter-args` | &nbsp;&nbsp;### Ключевые контр-аргументы |
 
 ### `references/FAQ.md` (625 строк)
 
@@ -224,7 +231,7 @@
 | 111 | — | &nbsp;&nbsp;### **Мягкая Посадка** |
 | 117 | — | ## П |
 | 119 | — | &nbsp;&nbsp;### **Правило Знакомого Кода** |
-| 123 | — | &nbsp;&nbsp;### **Правило Когерентности** |
+| 123 | — | &nbsp;&nbsp;### **Правило Согласованности Сенсорики** |
 | 129 | — | ## О |
 | 131 | — | &nbsp;&nbsp;### **Органическая игра** |
 | 137 | — | ## Р |

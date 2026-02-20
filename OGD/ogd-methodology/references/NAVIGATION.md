@@ -16,6 +16,10 @@
 | Нарратив и сюжет | `references/OGD.md` | `ogd-narrative` → `ogd-narrative-harmony` |
 | Удержание (LTV), Мягкая Посадка | `references/OGD.md` | `ogd-retention-ltv` → `ogd-soft-landing` |
 | Барьер входа, Транзит | `references/OGD.md` | `ogd-inertia-entry` → `ogd-transit-gameplay` |
+| Разрыв дистанции (вишлисты, конверсия) | `references/OGD.md` | `ogd-distance-gap` |
+| Якоря осуществимости | `references/OGD.md` | `ogd-feasibility-anchors` |
+| Переключение страницы на релизе | `references/OGD.md` | `ogd-launch-switch` |
+| Эффект чужого выбора (рекомендации) | `references/OGD.md` | `ogd-social-distance` |
 | Маркетинг Регуляции | `references/OGD.md` | `ogd-marketing-regulation` → `ogd-visual-design` |
 | Жанр и сеттинг | `references/OGD.md` | `ogd-genre-setting` → `ogd-dissonance-trap` |
 | Протоколы (Режимы A-D) | `references/OGD.md` | `ogd-protocol-application` |
