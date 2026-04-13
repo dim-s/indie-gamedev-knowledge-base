@@ -27,6 +27,40 @@
 | Быстрый поиск термина | `references/GLOSSARY.md` | — |
 | FAQ по методу | `references/FAQ.md` | — |
 
+## Модули расширения
+
+### Пейсинг (`references/Pacing.md`)
+
+| Задача | Якоря |
+|--------|-------|
+| Принцип Убывающей Редкости | `pacing-decreasing-rarity` |
+| Пять слоёв пейсинга | `pacing-layers` |
+| Темп и его границы | `pacing-tempo` |
+| Калибровка по типу OGD | `pacing-calibration` |
+| Формулы распределения и гарантии | `pacing-formulas` |
+| Пейсинг vs Балансировка | `pacing-vs-balancing` |
+| Протокол Аудита (Р1) | `pacing-protocol-p1` |
+| Протокол Проектирования (Р2) | `pacing-protocol-p2` |
+| Протокол Диагностики (Р3) | `pacing-protocol-p3` |
+
+### Прогрессия (`references/Progression.md`)
+
+| Задача | Якоря |
+|--------|-------|
+| Зачем отдельный модуль | `progression-why` |
+| Научный фундамент (chunking, peak-end, SEEKING, predictive coding) | `progression-science` |
+| Принцип 1: Укрупнение Взгляда | `progression-chunking` |
+| Принцип 2: Качественный Порог | `progression-threshold` |
+| Типология прогрессии (5 типов) | `progression-types` |
+| Четыре петли прогрессии (микро/средняя/большая/мета) | `progression-loops` |
+| Калибровка под Убежище / Тренажёр / Маятник / Буфет | `progression-calibration` |
+| Прогрессия vs Балансировка | `progression-vs-balancing` |
+| Протокол Аудита (Пр1) | `progression-protocol-pr1` |
+| Протокол Проектирования (Пр2) | `progression-protocol-pr2` |
+| Протокол Диагностики (Пр3) | `progression-protocol-pr3` |
+| Ловушки и анти-паттерны | `progression-pitfalls` |
+| Связь с OGD и Пейсингом | `progression-ogd-bridge` |
+
 ## Статьи в references/articles/
 
 | Файл | Тема |

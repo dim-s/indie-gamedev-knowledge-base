@@ -27,6 +27,8 @@ OGD_CORE_FILES = [
     "OGD/GLOSSARY.md",
     "OGD/QUICKSTART.md",
     "OGD/FAQ.md",
+    "OGD/Pacing.md",
+    "OGD/Progression.md",
 ]
 
 # Статьи, сильно связанные с OGD (копируются в references/articles/)
