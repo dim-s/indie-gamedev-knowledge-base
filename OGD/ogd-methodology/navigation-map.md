@@ -252,6 +252,101 @@
 | 202 | — | ## Я |
 | 204 | — | &nbsp;&nbsp;### **Якорь** |
 
+### `references/Pacing.md` (741 строк)
+
+| Строка | Якорь | Заголовок |
+|--------|-------|-----------|
+| 9 | `pacing-top` | # Пейсинг OGD |
+| 13 | — | ## Что такое пейсинг и почему это слово |
+| 28 | `pacing-toc` | ## Оглавление |
+| 69 | `pacing-dice` | ## Про кубики |
+| 84 | `pacing-why` | ## Зачем отдельный модуль |
+| 100 | `pacing-science` | ## Научный фундамент |
+| 105 | `pacing-science-hard` | &nbsp;&nbsp;### Жёсткая база |
+| 148 | `pacing-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
+| 175 | `pacing-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
+| 188 | `pacing-two-modes` | ## Два режима пейсинга |
+| 191 | `pacing-authored` | &nbsp;&nbsp;### Ручной пейсинг |
+| 202 | `pacing-emergent` | &nbsp;&nbsp;### Системный пейсинг |
+| 218 | `pacing-layers` | ## Слои пейсинга |
+| 238 | `pacing-vs-balancing` | ## Пейсинг или балансировка? |
+| 253 | `pacing-log-variance` | ## Принцип Убывающей Редкости |
+| 258 | `pacing-log-variance-core` | &nbsp;&nbsp;### Суть |
+| 273 | `pacing-tiers` | &nbsp;&nbsp;### Градации |
+| 282 | `pacing-tiers-scale` | &nbsp;&nbsp;&nbsp;&nbsp;#### Шкала ступеней |
+| 304 | `pacing-tiers-boundaries` | &nbsp;&nbsp;&nbsp;&nbsp;#### Почему от 2 до 5 |
+| 313 | `pacing-tiers-howmany` | &nbsp;&nbsp;&nbsp;&nbsp;#### Как выбрать число ступеней |
+| 327 | `pacing-tiers-tempo` | &nbsp;&nbsp;&nbsp;&nbsp;#### Границы темпа |
+| 369 | `pacing-calibration` | &nbsp;&nbsp;### Настройка под тип игры OGD |
+| 398 | `pacing-progressive` | &nbsp;&nbsp;### Лестница редкости |
+| 415 | `pacing-desync` | &nbsp;&nbsp;### Рассинхронизация слоёв |
+| 426 | `pacing-formulas` | ## Формулы распределения |
+| 428 | — | &nbsp;&nbsp;### Базовая архитектура: как реализовать ступени |
+| 489 | `pacing-geometric` | &nbsp;&nbsp;### Геометрическая формула (генератор весов ступеней) |
+| 558 | `pacing-prd` | &nbsp;&nbsp;### Псевдослучайное распределение |
+| 565 | `pacing-pity` | &nbsp;&nbsp;### Мягкая и жёсткая гарантия |
+| 572 | `pacing-collation` | &nbsp;&nbsp;### Фиксированная раскладка |
+| 581 | `pacing-protocol` | ## Протокол применения |
+| 586 | `pacing-protocol-p1` | &nbsp;&nbsp;### Режим Р1: Аудит пейсинга |
+| 623 | `pacing-protocol-p2` | &nbsp;&nbsp;### Режим Р2: Проектирование пейсинга |
+| 655 | `pacing-protocol-p3` | &nbsp;&nbsp;### Режим Р3: Диагностика пейсинга |
+| 692 | `pacing-pitfalls` | ## Ловушки и ограничения |
+| 719 | `pacing-ogd-bridge` | ## Связь с OGD |
+
+### `references/Progression.md` (791 строк)
+
+| Строка | Якорь | Заголовок |
+|--------|-------|-----------|
+| 9 | `progression-top` | # Прогрессия OGD |
+| 13 | — | ## Что такое прогрессия и почему это не то, что вы думаете |
+| 29 | `progression-toc` | ## Оглавление |
+| 58 | `progression-why` | ## Зачем отдельный модуль |
+| 73 | `progression-science` | ## Научный фундамент |
+| 78 | `progression-science-hard` | &nbsp;&nbsp;### Жёсткая база |
+| 130 | `progression-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
+| 171 | `progression-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
+| 184 | `progression-science-warning` | &nbsp;&nbsp;### Что мы сознательно не используем |
+| 201 | `progression-chunking` | ## Принцип 1: Укрупнение Взгляда |
+| 206 | `progression-chunking-core` | &nbsp;&nbsp;### Суть |
+| 217 | `progression-chunking-spheres` | &nbsp;&nbsp;### Как это выглядит в пяти сферах OGD |
+| 234 | `progression-chunking-test` | &nbsp;&nbsp;### Диагностический тест |
+| 253 | `progression-chunking-how` | &nbsp;&nbsp;### Что помогает укрупнению формироваться |
+| 272 | `progression-chunking-blockers` | &nbsp;&nbsp;### Что блокирует укрупнение |
+| 287 | `progression-chunking-summary` | &nbsp;&nbsp;### Короткая формулировка |
+| 298 | `progression-threshold` | ## Принцип 2: Качественный Порог |
+| 303 | `progression-threshold-core` | &nbsp;&nbsp;### Суть |
+| 314 | `progression-threshold-examples` | &nbsp;&nbsp;### Как порог выглядит на практике |
+| 329 | `progression-threshold-vert-horiz` | &nbsp;&nbsp;### Ложный выбор между «вглубь» и «вширь» |
+| 347 | `progression-threshold-design` | &nbsp;&nbsp;### Как проектировать пороги |
+| 373 | `progression-threshold-antipatterns` | &nbsp;&nbsp;### Анти-паттерны |
+| 386 | `progression-threshold-summary` | &nbsp;&nbsp;### Короткая формулировка |
+| 397 | `progression-types` | ## Типология прогрессии |
+| 403 | — | &nbsp;&nbsp;### Горизонтальная прогрессия |
+| 409 | — | &nbsp;&nbsp;### Вертикальная прогрессия |
+| 415 | — | &nbsp;&nbsp;### Мета-прогрессия |
+| 421 | — | &nbsp;&nbsp;### Нарративная прогрессия |
+| 427 | — | &nbsp;&nbsp;### Прогрессия в игроке |
+| 436 | — | &nbsp;&nbsp;### Как типы сочетаются в реальных играх |
+| 451 | `progression-loops` | ## Петли прогрессии |
+| 457 | — | &nbsp;&nbsp;### Четыре масштаба |
+| 475 | — | &nbsp;&nbsp;### Как петли вкладываются |
+| 483 | — | &nbsp;&nbsp;### Таблица масштабов |
+| 497 | `progression-calibration` | ## Калибровка по типу игры OGD |
+| 504 | `progression-calibration-shelter` | &nbsp;&nbsp;### Убежище |
+| 521 | `progression-calibration-gym` | &nbsp;&nbsp;### Тренажёр |
+| 538 | `progression-calibration-pendulum` | &nbsp;&nbsp;### Маятник |
+| 557 | `progression-calibration-buffet` | &nbsp;&nbsp;### Буфет |
+| 585 | `progression-vs-balancing` | ## Прогрессия или балансировка? |
+| 611 | `progression-protocol` | ## Протокол применения |
+| 618 | `progression-protocol-pr1` | &nbsp;&nbsp;### Режим Пр1: Аудит прогрессии |
+| 649 | `progression-protocol-pr2` | &nbsp;&nbsp;### Режим Пр2: Проектирование прогрессии |
+| 674 | `progression-protocol-pr3` | &nbsp;&nbsp;### Режим Пр3: Диагностика прогрессии |
+| 709 | `progression-pitfalls` | ## Ловушки и анти-паттерны |
+| 736 | `progression-pitfalls-scope` | &nbsp;&nbsp;### Область применимости |
+| 750 | `progression-ogd-bridge` | ## Связь с OGD и Пейсингом |
+| 754 | — | &nbsp;&nbsp;### Таблица-мостик |
+| 775 | — | &nbsp;&nbsp;### Как Пейсинг и Прогрессия работают вместе |
+
 ### `references/QUICKSTART.md` (134 строк)
 
 | Строка | Якорь | Заголовок |
