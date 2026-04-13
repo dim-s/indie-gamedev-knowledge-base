@@ -23,14 +23,14 @@
 #
 # Environment overrides:
 #   CLONE_DIR   Where to clone the source repo in remote mode.
-#               Default: ~/.local/share/indie-gamedev-practice
+#               Default: ~/.local/share/indie-gamedev-knowledge-base
 
 set -euo pipefail
 
-REPO_URL="https://github.com/dim-s/indie-gamedev-practice.git"
+REPO_URL="https://github.com/dim-s/indie-gamedev-knowledge-base.git"
 SKILL_NAME="ogd-methodology"
 SKILL_PATH_IN_REPO="OGD/${SKILL_NAME}"
-DEFAULT_CLONE="${HOME}/.local/share/indie-gamedev-practice"
+DEFAULT_CLONE="${HOME}/.local/share/indie-gamedev-knowledge-base"
 CLONE_DIR="${CLONE_DIR:-${DEFAULT_CLONE}}"
 
 ALL_TARGETS="claude claude-project cursor cursor-project cline cline-project opencode opencode-project copilot copilot-project"
@@ -175,7 +175,7 @@ Targets (--target name):
 
 Environment:
   CLONE_DIR    Where to clone the source repo in remote mode.
-               Default: ~/.local/share/indie-gamedev-practice
+               Default: ~/.local/share/indie-gamedev-knowledge-base
 EOF
 }
 
@@ -418,7 +418,7 @@ if [ "$MODE" = "local" ]; then
     echo "  Or re-run:     ${BASH_SOURCE[0]}"
 else
     echo "  Update later:  cd $REPO_ROOT && git pull"
-    echo "  Or re-run:     curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-practice/main/OGD/ogd-methodology/install.sh | bash"
+    echo "  Or re-run:     curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/main/OGD/ogd-methodology/install.sh | bash"
 fi
 echo "  Check status:  $0 --check    (or re-run installer)"
 echo "  Uninstall:     rm <path-shown-by---check>"
