@@ -60,7 +60,7 @@ curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/m
 
 ## Обновление
 
-Запусти ту же команду установки ещё раз — скрипт сделает `git pull` и покажет переход версий (например, `updated v0.9.3 → v0.9.4`). Или вручную:
+Запусти ту же команду установки ещё раз — скрипт сделает `git pull` и покажет переход версий (например, `updated v0.9.4 → v0.9.5`). Или вручную:
 
 ```bash
 cd ~/.local/share/indie-gamedev-knowledge-base && git pull

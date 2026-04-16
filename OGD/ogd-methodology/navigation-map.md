@@ -297,59 +297,63 @@
 | 692 | `pacing-pitfalls` | ## Ловушки и ограничения |
 | 719 | `pacing-ogd-bridge` | ## Связь с OGD |
 
-### `references/Progression.md` (791 строк)
+### `references/Progression.md` (955 строк)
 
 | Строка | Якорь | Заголовок |
 |--------|-------|-----------|
 | 9 | `progression-top` | # Прогрессия OGD |
 | 13 | — | ## Что такое прогрессия и почему это не то, что вы думаете |
-| 29 | `progression-toc` | ## Оглавление |
-| 58 | `progression-why` | ## Зачем отдельный модуль |
-| 73 | `progression-science` | ## Научный фундамент |
-| 78 | `progression-science-hard` | &nbsp;&nbsp;### Жёсткая база |
-| 130 | `progression-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
-| 171 | `progression-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
-| 184 | `progression-science-warning` | &nbsp;&nbsp;### Что мы сознательно не используем |
-| 201 | `progression-chunking` | ## Принцип 1: Укрупнение Взгляда |
-| 206 | `progression-chunking-core` | &nbsp;&nbsp;### Суть |
-| 217 | `progression-chunking-spheres` | &nbsp;&nbsp;### Как это выглядит в пяти сферах OGD |
-| 234 | `progression-chunking-test` | &nbsp;&nbsp;### Диагностический тест |
-| 253 | `progression-chunking-how` | &nbsp;&nbsp;### Что помогает укрупнению формироваться |
-| 272 | `progression-chunking-blockers` | &nbsp;&nbsp;### Что блокирует укрупнение |
-| 287 | `progression-chunking-summary` | &nbsp;&nbsp;### Короткая формулировка |
-| 298 | `progression-threshold` | ## Принцип 2: Качественный Порог |
-| 303 | `progression-threshold-core` | &nbsp;&nbsp;### Суть |
-| 314 | `progression-threshold-examples` | &nbsp;&nbsp;### Как порог выглядит на практике |
-| 329 | `progression-threshold-vert-horiz` | &nbsp;&nbsp;### Ложный выбор между «вглубь» и «вширь» |
-| 347 | `progression-threshold-design` | &nbsp;&nbsp;### Как проектировать пороги |
-| 373 | `progression-threshold-antipatterns` | &nbsp;&nbsp;### Анти-паттерны |
-| 386 | `progression-threshold-summary` | &nbsp;&nbsp;### Короткая формулировка |
-| 397 | `progression-types` | ## Типология прогрессии |
-| 403 | — | &nbsp;&nbsp;### Горизонтальная прогрессия |
-| 409 | — | &nbsp;&nbsp;### Вертикальная прогрессия |
-| 415 | — | &nbsp;&nbsp;### Мета-прогрессия |
-| 421 | — | &nbsp;&nbsp;### Нарративная прогрессия |
-| 427 | — | &nbsp;&nbsp;### Прогрессия в игроке |
-| 436 | — | &nbsp;&nbsp;### Как типы сочетаются в реальных играх |
-| 451 | `progression-loops` | ## Петли прогрессии |
-| 457 | — | &nbsp;&nbsp;### Четыре масштаба |
-| 475 | — | &nbsp;&nbsp;### Как петли вкладываются |
-| 483 | — | &nbsp;&nbsp;### Таблица масштабов |
-| 497 | `progression-calibration` | ## Калибровка по типу игры OGD |
-| 504 | `progression-calibration-shelter` | &nbsp;&nbsp;### Убежище |
-| 521 | `progression-calibration-gym` | &nbsp;&nbsp;### Тренажёр |
-| 538 | `progression-calibration-pendulum` | &nbsp;&nbsp;### Маятник |
-| 557 | `progression-calibration-buffet` | &nbsp;&nbsp;### Буфет |
-| 585 | `progression-vs-balancing` | ## Прогрессия или балансировка? |
-| 611 | `progression-protocol` | ## Протокол применения |
-| 618 | `progression-protocol-pr1` | &nbsp;&nbsp;### Режим Пр1: Аудит прогрессии |
-| 649 | `progression-protocol-pr2` | &nbsp;&nbsp;### Режим Пр2: Проектирование прогрессии |
-| 674 | `progression-protocol-pr3` | &nbsp;&nbsp;### Режим Пр3: Диагностика прогрессии |
-| 709 | `progression-pitfalls` | ## Ловушки и анти-паттерны |
-| 736 | `progression-pitfalls-scope` | &nbsp;&nbsp;### Область применимости |
-| 750 | `progression-ogd-bridge` | ## Связь с OGD и Пейсингом |
-| 754 | — | &nbsp;&nbsp;### Таблица-мостик |
-| 775 | — | &nbsp;&nbsp;### Как Пейсинг и Прогрессия работают вместе |
+| 33 | `progression-toc` | ## Оглавление |
+| 62 | `progression-why` | ## Зачем отдельный модуль |
+| 71 | `progression-science` | ## На чём стоит модуль |
+| 80 | `progression-transit` | ## Прогрессия в зоне Транзита |
+| 86 | — | &nbsp;&nbsp;### Нулевой порог |
+| 99 | `progression-chunking` | ## Принцип 1: Укрупнение Взгляда |
+| 104 | `progression-chunking-core` | &nbsp;&nbsp;### Суть |
+| 115 | `progression-chunking-spheres` | &nbsp;&nbsp;### Как это выглядит в пяти сферах OGD |
+| 152 | `progression-chunking-contexts` | &nbsp;&nbsp;### Два контекста укрупнения |
+| 197 | `progression-chunking-test` | &nbsp;&nbsp;### Диагностический тест |
+| 222 | `progression-chunking-how` | &nbsp;&nbsp;### Что помогает укрупнению формироваться |
+| 253 | `progression-chunking-blockers` | &nbsp;&nbsp;### Что блокирует укрупнение |
+| 268 | `progression-chunking-summary` | &nbsp;&nbsp;### Короткая формулировка |
+| 279 | `progression-threshold` | ## Принцип 2: Качественный Порог |
+| 284 | `progression-threshold-core` | &nbsp;&nbsp;### Суть |
+| 303 | `progression-threshold-examples` | &nbsp;&nbsp;### Как порог выглядит на практике |
+| 326 | `progression-threshold-vert-horiz` | &nbsp;&nbsp;### Ложный выбор между «вглубь» и «вширь» |
+| 344 | `progression-threshold-design` | &nbsp;&nbsp;### Как проектировать пороги |
+| 370 | `progression-threshold-antipatterns` | &nbsp;&nbsp;### Анти-паттерны |
+| 383 | `progression-threshold-summary` | &nbsp;&nbsp;### Короткая формулировка |
+| 394 | `progression-types` | ## Типология прогрессии |
+| 400 | — | &nbsp;&nbsp;### Горизонтальная прогрессия |
+| 406 | — | &nbsp;&nbsp;### Вертикальная прогрессия |
+| 412 | — | &nbsp;&nbsp;### Мета-прогрессия |
+| 418 | — | &nbsp;&nbsp;### Нарративная прогрессия |
+| 424 | — | &nbsp;&nbsp;### Прогрессия в игроке |
+| 433 | — | &nbsp;&nbsp;### Как типы сочетаются в реальных играх |
+| 448 | `progression-loops` | ## Петли прогрессии |
+| 454 | — | &nbsp;&nbsp;### Четыре масштаба |
+| 472 | — | &nbsp;&nbsp;### Как петли вкладываются |
+| 480 | — | &nbsp;&nbsp;### Таблица масштабов |
+| 494 | `progression-calibration` | ## Калибровка по типу игры OGD |
+| 503 | `progression-calibration-shelter` | &nbsp;&nbsp;### Убежище |
+| 520 | `progression-calibration-gym` | &nbsp;&nbsp;### Тренажёр |
+| 537 | `progression-calibration-pendulum` | &nbsp;&nbsp;### Маятник |
+| 556 | `progression-calibration-buffet` | &nbsp;&nbsp;### Буфет |
+| 584 | `progression-vs-balancing` | ## Прогрессия или балансировка? |
+| 610 | `progression-protocol` | ## Протокол применения |
+| 617 | `progression-protocol-pr1` | &nbsp;&nbsp;### Режим Пр1: Аудит прогрессии |
+| 648 | `progression-protocol-pr2` | &nbsp;&nbsp;### Режим Пр2: Проектирование прогрессии |
+| 673 | `progression-protocol-pr3` | &nbsp;&nbsp;### Режим Пр3: Диагностика прогрессии |
+| 712 | `progression-pitfalls` | ## Ловушки и анти-паттерны |
+| 739 | `progression-pitfalls-scope` | &nbsp;&nbsp;### Область применимости |
+| 753 | `progression-ogd-bridge` | ## Связь с OGD и Пейсингом |
+| 757 | — | &nbsp;&nbsp;### Таблица-мостик |
+| 779 | — | &nbsp;&nbsp;### Как Пейсинг и Прогрессия работают вместе |
+| 800 | `appendix-science` | ## Приложение А: Научный фундамент |
+| 805 | `appendix-science-hard` | &nbsp;&nbsp;### Жёсткая база |
+| 867 | `appendix-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
+| 930 | `appendix-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
+| 943 | `appendix-science-warning` | &nbsp;&nbsp;### Что мы сознательно не используем |
 
 ### `references/QUICKSTART.md` (140 строк)
 
