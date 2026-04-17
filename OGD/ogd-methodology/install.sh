@@ -28,6 +28,7 @@
 set -euo pipefail
 
 REPO_URL="https://github.com/dim-s/indie-gamedev-knowledge-base.git"
+REPO_BRANCH="v0.9.5-beta"
 SKILL_NAME="ogd-methodology"
 SKILL_PATH_IN_REPO="OGD/${SKILL_NAME}"
 DEFAULT_CLONE="${HOME}/.local/share/indie-gamedev-knowledge-base"
@@ -346,7 +347,7 @@ if [ "$MODE" = "remote" ]; then
     else
         log "Cloning ${REPO_URL}..."
         mkdir -p "$(dirname "$CLONE_DIR")"
-        if ! git clone --depth 1 --quiet "$REPO_URL" "$CLONE_DIR"; then
+        if ! git clone --depth 1 --branch "$REPO_BRANCH" --quiet "$REPO_URL" "$CLONE_DIR"; then
             err "git clone failed. Check your network and that the repo URL is reachable:"
             err "  $REPO_URL"
             exit 1
@@ -418,7 +419,7 @@ if [ "$MODE" = "local" ]; then
     echo "  Or re-run:     ${BASH_SOURCE[0]}"
 else
     echo "  Update later:  cd $REPO_ROOT && git pull"
-    echo "  Or re-run:     curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/main/OGD/ogd-methodology/install.sh | bash"
+    echo "  Or re-run:     curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/${REPO_BRANCH}/OGD/ogd-methodology/install.sh | bash"
 fi
 echo "  Check status:  $0 --check    (or re-run installer)"
 echo "  Uninstall:     rm <path-shown-by---check>"
