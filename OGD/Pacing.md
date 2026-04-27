@@ -2,7 +2,7 @@
 layout: default
 title: "Пейсинг OGD"
 parent: OGD (Методология)
-nav_order: 3
+nav_order: 5
 ---
 
 <a name="pacing-top"></a>
