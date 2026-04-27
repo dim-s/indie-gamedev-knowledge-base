@@ -12,7 +12,7 @@ nav_order: 90
 ## Установка
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/main/OGD/ogd-methodology/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/v0.9.5-beta/OGD/ogd-methodology/install.sh | bash
 ```
 
 Скрипт склонирует репозиторий в `~/.local/share/indie-gamedev-knowledge-base`, найдёт установленный у тебя инструмент и поставит скилл туда через симлинк. Поддерживает macOS и Linux, нужны `bash` и `git`. Для Windows — см. ниже.
@@ -52,15 +52,15 @@ curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/m
 Альтернатива — гонять всё через `curl` без локального файла:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/main/OGD/ogd-methodology/install.sh | bash -s -- --target cursor
-curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/main/OGD/ogd-methodology/install.sh | bash -s -- --check
+curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/v0.9.5-beta/OGD/ogd-methodology/install.sh | bash -s -- --target cursor
+curl -sSL https://raw.githubusercontent.com/dim-s/indie-gamedev-knowledge-base/v0.9.5-beta/OGD/ogd-methodology/install.sh | bash -s -- --check
 ```
 
 Команда длинная, но не требует знать путь к локальному файлу.
 
 ## Обновление
 
-Запусти ту же команду установки ещё раз — скрипт сделает `git pull` и покажет переход версий (например, `updated v0.9.3 → v0.9.4`). Или вручную:
+Запусти ту же команду установки ещё раз — скрипт сделает `git pull` и покажет переход версий (например, `updated v0.9.4 → v0.9.5`). Или вручную:
 
 ```bash
 cd ~/.local/share/indie-gamedev-knowledge-base && git pull

@@ -202,7 +202,7 @@
 | 627 | — | &nbsp;&nbsp;### "Это как X, но Y" — это правда рабочая формула? |
 | 635 | — | &nbsp;&nbsp;### Я делаю социальную игру. Комьюнити тоже часть продукта? |
 
-### `references/GLOSSARY.md` (214 строк)
+### `references/GLOSSARY.md` (234 строк)
 
 | Строка | Якорь | Заголовок |
 |--------|-------|-----------|
@@ -232,124 +232,133 @@
 | 107 | — | &nbsp;&nbsp;### **Маркетинг Регуляции** |
 | 111 | — | &nbsp;&nbsp;### **Мягкая Посадка** |
 | 117 | — | ## П |
-| 119 | — | &nbsp;&nbsp;### **Правило Знакомого Кода** |
-| 123 | — | &nbsp;&nbsp;### **Правило Согласованности Сенсорики** |
-| 127 | — | &nbsp;&nbsp;### **Прочтение** |
-| 131 | — | &nbsp;&nbsp;### **Целевое Прочтение** |
-| 137 | — | ## О |
-| 139 | — | &nbsp;&nbsp;### **Органическая игра** |
-| 145 | — | ## Р |
-| 147 | — | &nbsp;&nbsp;### **Резонанс** |
-| 151 | — | &nbsp;&nbsp;### **Ритм Обратной Связи** |
-| 157 | — | ## С |
-| 159 | — | &nbsp;&nbsp;### **Сенсорный Слой** |
-| 163 | — | &nbsp;&nbsp;### **Сенсорный Шум** |
-| 167 | — | &nbsp;&nbsp;### **Синтетическая игра** |
-| 171 | — | &nbsp;&nbsp;### **Стабилизатор** |
-| 175 | — | &nbsp;&nbsp;### **Стимулятор** |
-| 179 | — | &nbsp;&nbsp;### **Сферы** |
-| 190 | — | ## Т |
-| 192 | — | &nbsp;&nbsp;### **Токсичный Поток** |
-| 196 | — | &nbsp;&nbsp;### **Транзит** |
-| 202 | — | ## Ф |
-| 204 | — | &nbsp;&nbsp;### **Формула Обещания** |
-| 210 | — | ## Я |
-| 212 | — | &nbsp;&nbsp;### **Якорь** |
+| 119 | — | &nbsp;&nbsp;### **Пейсинг** |
+| 123 | — | &nbsp;&nbsp;### **Подмена контроля** |
+| 127 | — | &nbsp;&nbsp;### **Правило Знакомого Кода** |
+| 131 | — | &nbsp;&nbsp;### **Правило Согласованности Сенсорики** |
+| 135 | — | &nbsp;&nbsp;### **Принцип Убывающей Редкости** |
+| 139 | — | &nbsp;&nbsp;### **Прочтение** |
+| 143 | — | &nbsp;&nbsp;### **Целевое Прочтение** |
+| 149 | — | ## О |
+| 151 | — | &nbsp;&nbsp;### **Органическая игра** |
+| 157 | — | ## Р |
+| 159 | — | &nbsp;&nbsp;### **Резонанс** |
+| 163 | — | &nbsp;&nbsp;### **Ритм Обратной Связи** |
+| 169 | — | ## С |
+| 171 | — | &nbsp;&nbsp;### **Сенсорный Слой** |
+| 175 | — | &nbsp;&nbsp;### **Сенсорный Шум** |
+| 179 | — | &nbsp;&nbsp;### **Синтетическая игра** |
+| 183 | — | &nbsp;&nbsp;### **Слои пейсинга** |
+| 187 | — | &nbsp;&nbsp;### **Стабилизатор** |
+| 191 | — | &nbsp;&nbsp;### **Стимулятор** |
+| 195 | — | &nbsp;&nbsp;### **Ступени редкости** |
+| 199 | — | &nbsp;&nbsp;### **Сферы** |
+| 210 | — | ## Т |
+| 212 | — | &nbsp;&nbsp;### **Токсичный Поток** |
+| 216 | — | &nbsp;&nbsp;### **Транзит** |
+| 222 | — | ## Ф |
+| 224 | — | &nbsp;&nbsp;### **Формула Обещания** |
+| 230 | — | ## Я |
+| 232 | — | &nbsp;&nbsp;### **Якорь** |
 
-### `references/Pacing.md` (741 строк)
+### `references/Pacing.md` (744 строк)
 
 | Строка | Якорь | Заголовок |
 |--------|-------|-----------|
 | 9 | `pacing-top` | # Пейсинг OGD |
 | 13 | — | ## Что такое пейсинг и почему это слово |
 | 28 | `pacing-toc` | ## Оглавление |
-| 69 | `pacing-dice` | ## Про кубики |
-| 84 | `pacing-why` | ## Зачем отдельный модуль |
-| 100 | `pacing-science` | ## Научный фундамент |
-| 105 | `pacing-science-hard` | &nbsp;&nbsp;### Жёсткая база |
-| 148 | `pacing-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
-| 175 | `pacing-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
-| 188 | `pacing-two-modes` | ## Два режима пейсинга |
-| 191 | `pacing-authored` | &nbsp;&nbsp;### Ручной пейсинг |
-| 202 | `pacing-emergent` | &nbsp;&nbsp;### Системный пейсинг |
-| 218 | `pacing-layers` | ## Слои пейсинга |
-| 238 | `pacing-vs-balancing` | ## Пейсинг или балансировка? |
-| 253 | `pacing-log-variance` | ## Принцип Убывающей Редкости |
-| 258 | `pacing-log-variance-core` | &nbsp;&nbsp;### Суть |
-| 273 | `pacing-tiers` | &nbsp;&nbsp;### Градации |
-| 282 | `pacing-tiers-scale` | &nbsp;&nbsp;&nbsp;&nbsp;#### Шкала ступеней |
-| 304 | `pacing-tiers-boundaries` | &nbsp;&nbsp;&nbsp;&nbsp;#### Почему от 2 до 5 |
-| 313 | `pacing-tiers-howmany` | &nbsp;&nbsp;&nbsp;&nbsp;#### Как выбрать число ступеней |
-| 327 | `pacing-tiers-tempo` | &nbsp;&nbsp;&nbsp;&nbsp;#### Границы темпа |
-| 369 | `pacing-calibration` | &nbsp;&nbsp;### Настройка под тип игры OGD |
-| 398 | `pacing-progressive` | &nbsp;&nbsp;### Лестница редкости |
-| 415 | `pacing-desync` | &nbsp;&nbsp;### Рассинхронизация слоёв |
-| 426 | `pacing-formulas` | ## Формулы распределения |
-| 428 | — | &nbsp;&nbsp;### Базовая архитектура: как реализовать ступени |
-| 489 | `pacing-geometric` | &nbsp;&nbsp;### Геометрическая формула (генератор весов ступеней) |
-| 558 | `pacing-prd` | &nbsp;&nbsp;### Псевдослучайное распределение |
-| 565 | `pacing-pity` | &nbsp;&nbsp;### Мягкая и жёсткая гарантия |
-| 572 | `pacing-collation` | &nbsp;&nbsp;### Фиксированная раскладка |
-| 581 | `pacing-protocol` | ## Протокол применения |
-| 586 | `pacing-protocol-p1` | &nbsp;&nbsp;### Режим Р1: Аудит пейсинга |
-| 623 | `pacing-protocol-p2` | &nbsp;&nbsp;### Режим Р2: Проектирование пейсинга |
-| 655 | `pacing-protocol-p3` | &nbsp;&nbsp;### Режим Р3: Диагностика пейсинга |
-| 692 | `pacing-pitfalls` | ## Ловушки и ограничения |
-| 719 | `pacing-ogd-bridge` | ## Связь с OGD |
+| 69 | `pacing-why` | ## Зачем отдельный модуль |
+| 85 | `pacing-science` | ## Научный фундамент |
+| 90 | `pacing-science-hard` | &nbsp;&nbsp;### Жёсткая база |
+| 135 | `pacing-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
+| 156 | `pacing-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
+| 169 | `pacing-two-modes` | ## Два режима пейсинга |
+| 172 | `pacing-authored` | &nbsp;&nbsp;### Ручной пейсинг |
+| 183 | `pacing-emergent` | &nbsp;&nbsp;### Системный пейсинг |
+| 199 | `pacing-layers` | ## Слои пейсинга |
+| 219 | `pacing-vs-balancing` | ## Пейсинг или балансировка? |
+| 234 | `pacing-log-variance` | ## Принцип Убывающей Редкости |
+| 242 | `pacing-log-variance-core` | &nbsp;&nbsp;### Суть |
+| 257 | `pacing-tiers` | &nbsp;&nbsp;### Градации |
+| 266 | `pacing-tiers-scale` | &nbsp;&nbsp;&nbsp;&nbsp;#### Шкала ступеней |
+| 288 | `pacing-tiers-boundaries` | &nbsp;&nbsp;&nbsp;&nbsp;#### Почему от 2 до 5 |
+| 297 | `pacing-tiers-howmany` | &nbsp;&nbsp;&nbsp;&nbsp;#### Как выбрать число ступеней |
+| 311 | `pacing-tiers-tempo` | &nbsp;&nbsp;&nbsp;&nbsp;#### Границы темпа |
+| 353 | `pacing-calibration` | &nbsp;&nbsp;### Настройка под мотивационный вектор |
+| 384 | `pacing-sphere` | &nbsp;&nbsp;### Уточнение по Сфере |
+| 414 | `pacing-progressive` | &nbsp;&nbsp;### Лестница редкости |
+| 421 | `pacing-desync` | &nbsp;&nbsp;### Рассинхронизация слоёв |
+| 432 | `pacing-formulas` | ## Формулы распределения |
+| 434 | — | &nbsp;&nbsp;### Базовая архитектура: как реализовать ступени |
+| 495 | `pacing-geometric` | &nbsp;&nbsp;### Геометрическая формула (генератор весов ступеней) |
+| 564 | `pacing-prd` | &nbsp;&nbsp;### Псевдослучайное распределение |
+| 571 | `pacing-pity` | &nbsp;&nbsp;### Мягкая и жёсткая гарантия |
+| 578 | `pacing-collation` | &nbsp;&nbsp;### Фиксированная раскладка |
+| 587 | `pacing-protocol` | ## Протокол применения |
+| 592 | `pacing-protocol-p1` | &nbsp;&nbsp;### Режим Р1: Аудит пейсинга |
+| 629 | `pacing-protocol-p2` | &nbsp;&nbsp;### Режим Р2: Проектирование пейсинга |
+| 662 | `pacing-protocol-p3` | &nbsp;&nbsp;### Режим Р3: Диагностика пейсинга |
+| 699 | `pacing-pitfalls` | ## Ловушки и ограничения |
+| 721 | `pacing-ogd-bridge` | ## Связь с OGD |
 
-### `references/Progression.md` (791 строк)
+### `references/Progression.md` (955 строк)
 
 | Строка | Якорь | Заголовок |
 |--------|-------|-----------|
 | 9 | `progression-top` | # Прогрессия OGD |
 | 13 | — | ## Что такое прогрессия и почему это не то, что вы думаете |
-| 29 | `progression-toc` | ## Оглавление |
-| 58 | `progression-why` | ## Зачем отдельный модуль |
-| 73 | `progression-science` | ## Научный фундамент |
-| 78 | `progression-science-hard` | &nbsp;&nbsp;### Жёсткая база |
-| 130 | `progression-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
-| 171 | `progression-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
-| 184 | `progression-science-warning` | &nbsp;&nbsp;### Что мы сознательно не используем |
-| 201 | `progression-chunking` | ## Принцип 1: Укрупнение Взгляда |
-| 206 | `progression-chunking-core` | &nbsp;&nbsp;### Суть |
-| 217 | `progression-chunking-spheres` | &nbsp;&nbsp;### Как это выглядит в пяти сферах OGD |
-| 234 | `progression-chunking-test` | &nbsp;&nbsp;### Диагностический тест |
-| 253 | `progression-chunking-how` | &nbsp;&nbsp;### Что помогает укрупнению формироваться |
-| 272 | `progression-chunking-blockers` | &nbsp;&nbsp;### Что блокирует укрупнение |
-| 287 | `progression-chunking-summary` | &nbsp;&nbsp;### Короткая формулировка |
-| 298 | `progression-threshold` | ## Принцип 2: Качественный Порог |
-| 303 | `progression-threshold-core` | &nbsp;&nbsp;### Суть |
-| 314 | `progression-threshold-examples` | &nbsp;&nbsp;### Как порог выглядит на практике |
-| 329 | `progression-threshold-vert-horiz` | &nbsp;&nbsp;### Ложный выбор между «вглубь» и «вширь» |
-| 347 | `progression-threshold-design` | &nbsp;&nbsp;### Как проектировать пороги |
-| 373 | `progression-threshold-antipatterns` | &nbsp;&nbsp;### Анти-паттерны |
-| 386 | `progression-threshold-summary` | &nbsp;&nbsp;### Короткая формулировка |
-| 397 | `progression-types` | ## Типология прогрессии |
-| 403 | — | &nbsp;&nbsp;### Горизонтальная прогрессия |
-| 409 | — | &nbsp;&nbsp;### Вертикальная прогрессия |
-| 415 | — | &nbsp;&nbsp;### Мета-прогрессия |
-| 421 | — | &nbsp;&nbsp;### Нарративная прогрессия |
-| 427 | — | &nbsp;&nbsp;### Прогрессия в игроке |
-| 436 | — | &nbsp;&nbsp;### Как типы сочетаются в реальных играх |
-| 451 | `progression-loops` | ## Петли прогрессии |
-| 457 | — | &nbsp;&nbsp;### Четыре масштаба |
-| 475 | — | &nbsp;&nbsp;### Как петли вкладываются |
-| 483 | — | &nbsp;&nbsp;### Таблица масштабов |
-| 497 | `progression-calibration` | ## Калибровка по типу игры OGD |
-| 504 | `progression-calibration-shelter` | &nbsp;&nbsp;### Убежище |
-| 521 | `progression-calibration-gym` | &nbsp;&nbsp;### Тренажёр |
-| 538 | `progression-calibration-pendulum` | &nbsp;&nbsp;### Маятник |
-| 557 | `progression-calibration-buffet` | &nbsp;&nbsp;### Буфет |
-| 585 | `progression-vs-balancing` | ## Прогрессия или балансировка? |
-| 611 | `progression-protocol` | ## Протокол применения |
-| 618 | `progression-protocol-pr1` | &nbsp;&nbsp;### Режим Пр1: Аудит прогрессии |
-| 649 | `progression-protocol-pr2` | &nbsp;&nbsp;### Режим Пр2: Проектирование прогрессии |
-| 674 | `progression-protocol-pr3` | &nbsp;&nbsp;### Режим Пр3: Диагностика прогрессии |
-| 709 | `progression-pitfalls` | ## Ловушки и анти-паттерны |
-| 736 | `progression-pitfalls-scope` | &nbsp;&nbsp;### Область применимости |
-| 750 | `progression-ogd-bridge` | ## Связь с OGD и Пейсингом |
-| 754 | — | &nbsp;&nbsp;### Таблица-мостик |
-| 775 | — | &nbsp;&nbsp;### Как Пейсинг и Прогрессия работают вместе |
+| 33 | `progression-toc` | ## Оглавление |
+| 62 | `progression-why` | ## Зачем отдельный модуль |
+| 71 | `progression-science` | ## На чём стоит модуль |
+| 80 | `progression-transit` | ## Прогрессия в зоне Транзита |
+| 86 | — | &nbsp;&nbsp;### Нулевой порог |
+| 99 | `progression-chunking` | ## Принцип 1: Укрупнение Взгляда |
+| 104 | `progression-chunking-core` | &nbsp;&nbsp;### Суть |
+| 115 | `progression-chunking-spheres` | &nbsp;&nbsp;### Как это выглядит в пяти сферах OGD |
+| 152 | `progression-chunking-contexts` | &nbsp;&nbsp;### Два контекста укрупнения |
+| 197 | `progression-chunking-test` | &nbsp;&nbsp;### Диагностический тест |
+| 222 | `progression-chunking-how` | &nbsp;&nbsp;### Что помогает укрупнению формироваться |
+| 253 | `progression-chunking-blockers` | &nbsp;&nbsp;### Что блокирует укрупнение |
+| 268 | `progression-chunking-summary` | &nbsp;&nbsp;### Короткая формулировка |
+| 279 | `progression-threshold` | ## Принцип 2: Качественный Порог |
+| 284 | `progression-threshold-core` | &nbsp;&nbsp;### Суть |
+| 303 | `progression-threshold-examples` | &nbsp;&nbsp;### Как порог выглядит на практике |
+| 326 | `progression-threshold-vert-horiz` | &nbsp;&nbsp;### Ложный выбор между «вглубь» и «вширь» |
+| 344 | `progression-threshold-design` | &nbsp;&nbsp;### Как проектировать пороги |
+| 370 | `progression-threshold-antipatterns` | &nbsp;&nbsp;### Анти-паттерны |
+| 383 | `progression-threshold-summary` | &nbsp;&nbsp;### Короткая формулировка |
+| 394 | `progression-types` | ## Типология прогрессии |
+| 400 | — | &nbsp;&nbsp;### Горизонтальная прогрессия |
+| 406 | — | &nbsp;&nbsp;### Вертикальная прогрессия |
+| 412 | — | &nbsp;&nbsp;### Мета-прогрессия |
+| 418 | — | &nbsp;&nbsp;### Нарративная прогрессия |
+| 424 | — | &nbsp;&nbsp;### Прогрессия в игроке |
+| 433 | — | &nbsp;&nbsp;### Как типы сочетаются в реальных играх |
+| 448 | `progression-loops` | ## Петли прогрессии |
+| 454 | — | &nbsp;&nbsp;### Четыре масштаба |
+| 472 | — | &nbsp;&nbsp;### Как петли вкладываются |
+| 480 | — | &nbsp;&nbsp;### Таблица масштабов |
+| 494 | `progression-calibration` | ## Калибровка по типу игры OGD |
+| 503 | `progression-calibration-shelter` | &nbsp;&nbsp;### Убежище |
+| 520 | `progression-calibration-gym` | &nbsp;&nbsp;### Тренажёр |
+| 537 | `progression-calibration-pendulum` | &nbsp;&nbsp;### Маятник |
+| 556 | `progression-calibration-buffet` | &nbsp;&nbsp;### Буфет |
+| 584 | `progression-vs-balancing` | ## Прогрессия или балансировка? |
+| 610 | `progression-protocol` | ## Протокол применения |
+| 617 | `progression-protocol-pr1` | &nbsp;&nbsp;### Режим Пр1: Аудит прогрессии |
+| 648 | `progression-protocol-pr2` | &nbsp;&nbsp;### Режим Пр2: Проектирование прогрессии |
+| 673 | `progression-protocol-pr3` | &nbsp;&nbsp;### Режим Пр3: Диагностика прогрессии |
+| 712 | `progression-pitfalls` | ## Ловушки и анти-паттерны |
+| 739 | `progression-pitfalls-scope` | &nbsp;&nbsp;### Область применимости |
+| 753 | `progression-ogd-bridge` | ## Связь с OGD и Пейсингом |
+| 757 | — | &nbsp;&nbsp;### Таблица-мостик |
+| 779 | — | &nbsp;&nbsp;### Как Пейсинг и Прогрессия работают вместе |
+| 800 | `appendix-science` | ## Приложение А: Научный фундамент |
+| 805 | `appendix-science-hard` | &nbsp;&nbsp;### Жёсткая база |
+| 867 | `appendix-science-reliable` | &nbsp;&nbsp;### Надёжная база (с оговорками) |
+| 930 | `appendix-science-practical` | &nbsp;&nbsp;### Практическая база (индустрия) |
+| 943 | `appendix-science-warning` | &nbsp;&nbsp;### Что мы сознательно не используем |
 
 ### `references/QUICKSTART.md` (140 строк)
 
