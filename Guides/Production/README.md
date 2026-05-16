@@ -18,3 +18,6 @@ permalink: /production/
 
 ### Бизнес и Переговоры
 - [Ловушка «Энтузиаст и Страж»: Психология переговоров с издателем](./publisher-negotiation-tactics.md) — Разбор манипулятивной тактики "Good Cop / Bad Cop" и методы защиты.
+
+### Технические пайплайны и AI-автоматизация
+- [Как делать качественную локализацию инди-игр через AI агентов](./continuous-localization-pipeline.md) — Полный пайплайн continuous localization на 14 языков через Claude Opus и Gemini Pro. Two-agent setup (game-side + l10n-side), структура YAML, скрипты-валидаторы, AI-скиллы (`/sync-and-translate-all`), подключение Gemini как субагента через Gemini CLI, экспорт под любой движок. Почему GPT не подходит для локализации.
