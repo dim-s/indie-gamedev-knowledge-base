@@ -28,7 +28,7 @@
 set -euo pipefail
 
 REPO_URL="https://github.com/dim-s/indie-gamedev-knowledge-base.git"
-REPO_BRANCH="v0.9.5-beta"
+REPO_BRANCH="v0.9.6-beta"
 SKILL_NAME="ogd-methodology"
 SKILL_PATH_IN_REPO="OGD/${SKILL_NAME}"
 DEFAULT_CLONE="${HOME}/.local/share/indie-gamedev-knowledge-base"
