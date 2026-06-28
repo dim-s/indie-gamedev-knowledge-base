@@ -4,7 +4,7 @@ description: Анализируй и проектируй игры через п
 license: CC BY 4.0
 metadata:
   author: dmitrii-zaitsev
-  version: "0.9.5"
+  version: "0.9.6"
 compatibility: Works with Cursor, Claude Code, Codex. Requires python3 for running the update script.
 ---
 
